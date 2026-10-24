@@ -1,0 +1,20 @@
+﻿id,brand,name,base,group,nozzle,bed,fan,chamber,dryingTemperature,dryingTime,dryingBasis,categories,source,buyUrl,tds,foodContactLevel,evidence
+elegoo-standard-resin-resin,ELEGOO,Standard Resin,,Standard,,,,,,,,,https://eu.elegoo.com/en-pl/pages/elegoo-resins,,,not-verified,catalog
+elegoo-8k-standard-resin-resin,ELEGOO,8K Standard Resin,,Standard,,,,,,,,,https://eu.elegoo.com/en-pl/pages/elegoo-resins,,,not-verified,catalog
+elegoo-abs-like-resin-v3-0-resin,ELEGOO,ABS-Like Resin V3.0,,ABS-like,,,,,,,,,https://eu.elegoo.com/en-pl/pages/elegoo-resins,,,not-verified,catalog
+elegoo-abs-like-ultra-resin-resin,ELEGOO,ABS-Like Ultra Resin,,ABS-like,,,,,,,,,https://eu.elegoo.com/en-pl/pages/elegoo-resins,,,not-verified,catalog
+elegoo-water-washable-resin-v2-0-resin,ELEGOO,Water-Washable Resin V2.0,,Water washable,,,,,,,,,https://eu.elegoo.com/en-pl/pages/elegoo-resins,,,not-verified,catalog
+elegoo-tough-resin-resin,ELEGOO,Tough Resin,,Tough,,,,,,,,,https://eu.elegoo.com/en-pl/pages/elegoo-resins,,,not-verified,catalog
+elegoo-plant-based-resin-resin,ELEGOO,Plant-Based Resin,,Plant-based,,,,,,,,,https://eu.elegoo.com/en-pl/pages/elegoo-resins,,,not-verified,catalog
+anycubic-standard-resin-v2-resin,Anycubic,Standard Resin V2,,Standard,,,,,,,,,https://store.anycubic.com/pages/resin-user-manual,,,not-verified,catalog
+anycubic-abs-like-resin-pro-2-resin,Anycubic,ABS-Like Resin Pro 2,,ABS-like,,,,,,,,,https://store.anycubic.com/pages/resin-user-manual,,,not-verified,catalog
+anycubic-water-wash-resin-2-0-resin,Anycubic,Water-Wash Resin 2.0,,Water washable,,,,,,,,,https://store.anycubic.com/pages/resin-user-manual,,,not-verified,catalog
+anycubic-tough-resin-2-0-resin,Anycubic,Tough Resin 2.0,,Tough,,,,,,,,,https://store.anycubic.com/pages/resin-user-manual,,,not-verified,catalog
+anycubic-high-speed-resin-2-0-resin,Anycubic,High Speed Resin 2.0,,High speed,,,,,,,,,https://store.anycubic.com/pages/resin-user-manual,,,not-verified,catalog
+sunlu-standard-resin-resin,SUNLU,Standard Resin,,Standard,,,,,,,,,https://www.sunlu.com/,,,not-verified,catalog
+sunlu-abs-like-resin-resin,SUNLU,ABS-Like Resin,,ABS-like,,,,,,,,,https://www.sunlu.com/,,,not-verified,catalog
+sunlu-water-washable-resin-resin,SUNLU,Water Washable Resin,,Water washable,,,,,,,,,https://www.sunlu.com/,,,not-verified,catalog
+siraya-tech-fast-abs-like-resin,Siraya Tech,Fast ABS-Like,,ABS-like,,,,,,,,,https://siraya.tech/,,,not-verified,catalog
+siraya-tech-tenacious-resin,Siraya Tech,Tenacious,,Tough,,,,,,,,,https://siraya.tech/,,,not-verified,catalog
+phrozen-neon-resin,Phrozen,Standard Neon Resin,,Neon,,,,,,,,,https://eu.phrozen3d.com/products/neon-resin,https://eu.phrozen3d.com/products/neon-resin,,not-verified,product-data
+anycubic-plant-based-uv-resin-2,Anycubic,Plant-Based UV Resin 2.0,,Plant-based,,,,,,,,,https://store.anycubic.com/pages/resin-user-manual,,,not-verified,catalog

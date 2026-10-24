@@ -1,0 +1,122 @@
+﻿id;rodzaj;marka;produkt;cena;waluta;opakowanie;wariant;od;promocja;data_sprawdzenia;źródło_url
+bambu-pla-cf;filaments;Bambu Lab;PLA-CF;;;;;;;;https://eu.store.bambulab.com/en-pl/products/pla-cf
+bambu-petg-cf;filaments;Bambu Lab;PETG-CF;;;;;;;;https://eu.store.bambulab.com/en-pl/products/petg-cf
+bambu-abs-gf;filaments;Bambu Lab;ABS-GF;;;;;;;;https://eu.store.bambulab.com/en-pl/products/abs-gf
+bambu-pa6-gf;filaments;Bambu Lab;PA6-GF;;;;;;;;https://eu.store.bambulab.com/en-pl/products/pa6-gf
+bambu-pa6-cf;filaments;Bambu Lab;PA6-CF;;;;;;;;https://eu.store.bambulab.com/en-pl/products/pa6-cf
+bambu-paht-cf;filaments;Bambu Lab;PAHT-CF;;;;;;;;https://eu.store.bambulab.com/en-pl/products/paht-cf
+bambu-pet-cf;filaments;Bambu Lab;PET-CF;;;;;;;;https://eu.store.bambulab.com/en-pl/products/pet-cf
+bambu-pc;filaments;Bambu Lab;PC;;;;;;;;https://eu.store.bambulab.com/en-pl/products/pc-filament
+bambu-pc-fr;filaments;Bambu Lab;PC FR;;;;;;;;https://eu.store.bambulab.com/en-pl/products/pc-fr
+bambu-asa;filaments;Bambu Lab;ASA;;;;;;;;https://eu.store.bambulab.com/en-pl/products/asa-filament
+bambu-asa-cf;filaments;Bambu Lab;ASA-CF;;;;;;;;https://eu.store.bambulab.com/en-pl/products/asa-cf
+bambu-asa-aero;filaments;Bambu Lab;ASA Aero;;;;;;;;https://eu.store.bambulab.com/en-pl/products/asa-aero
+bambu-ppa-cf;filaments;Bambu Lab;PPA-CF;;;;;;;;https://eu.store.bambulab.com/en-pl/products/ppa-cf
+bambu-pps-cf;filaments;Bambu Lab;PPS-CF;;;;;;;;https://eu.store.bambulab.com/en-pl/products/pps-cf
+bambu-pla-aero;filaments;Bambu Lab;PLA Aero;;;;;;;;https://eu.store.bambulab.com/en-pl/products/pla-aero
+elegoo-pla;filaments;ELEGOO;PLA;12.99;EUR;1 kg;Standardowy wariant 1 kg / standard 1 kg variant;False;False;2026-10-24;https://eu.elegoo.com/en-pl/products/pla-filament-1-75mm-colored-1kg
+elegoo-pla-plus;filaments;ELEGOO;PLA Plus;13.99;EUR;1 kg;Standardowy wariant 1 kg / standard 1 kg variant;False;False;2026-10-24;https://eu.elegoo.com/en-pl/collections/filaments
+elegoo-rapid-pla-plus;filaments;ELEGOO;Rapid PLA Plus;15.99;EUR;1 kg;Standardowy wariant 1 kg / standard 1 kg variant;False;False;2026-10-24;https://eu.elegoo.com/en-pl/products/elegoo-rapid-pla-plus-filament-1-75mm-colored-1kg
+elegoo-pla-matte;filaments;ELEGOO;PLA Matte;17.99;EUR;1 kg;Standardowy wariant 1 kg / standard 1 kg variant;False;False;2026-10-24;https://eu.elegoo.com/en-pl/collections/filaments
+elegoo-pla-silk;filaments;ELEGOO;PLA Silk;18.99;EUR;1 kg;Standardowy wariant 1 kg / standard 1 kg variant;False;False;2026-10-24;https://eu.elegoo.com/en-pl/collections/filaments
+elegoo-petg;filaments;ELEGOO;PETG;;;;;;;;https://eu.elegoo.com/en-pl/collections/filaments
+elegoo-rapid-petg;filaments;ELEGOO;Rapid PETG;13.99;EUR;1 kg;Standardowy wariant 1 kg / standard 1 kg variant;False;False;2026-10-24;https://eu.elegoo.com/en-pl/products/rapid-petg-filament-1-75mm-colored-1kg
+elegoo-petg-cf;filaments;ELEGOO;PETG-CF;20.99;EUR;1 kg;Standardowy wariant 1 kg / standard 1 kg variant;False;False;2026-10-24;https://eu.elegoo.com/en-pl/collections/petg-filament
+elegoo-asa;filaments;ELEGOO;ASA;16.99;EUR;1 kg;Standardowy wariant 1 kg / standard 1 kg variant;False;False;2026-10-24;https://eu.elegoo.com/en-pl/pages/elegoo-filaments
+elegoo-abs;filaments;ELEGOO;ABS;17.99;EUR;1 kg;Standardowy wariant 1 kg / standard 1 kg variant;False;False;2026-10-24;https://eu.elegoo.com/en-pl/pages/elegoo-filaments
+elegoo-tpu-95a;filaments;ELEGOO;TPU 95A;17.99;EUR;1 kg;Standardowy wariant 1 kg / standard 1 kg variant;False;False;2026-10-24;https://eu.elegoo.com/en-pl/pages/elegoo-filaments
+elegoo-pc;filaments;ELEGOO;PC;29.99;EUR;1 kg;Standardowy wariant 1 kg / standard 1 kg variant;False;False;2026-10-24;https://eu.elegoo.com/en-pl/pages/elegoo-filaments
+sunlu-pla;filaments;SUNLU;PLA;;;;;;;;https://www.sunlu.com/wiki/61
+sunlu-pla-plus;filaments;SUNLU;PLA+;;;;;;;;https://www.sunlu.com/wiki/61
+sunlu-pla-matte;filaments;SUNLU;PLA Matte;;;;;;;;https://www.sunlu.com/wiki/61
+sunlu-silk-pla-plus;filaments;SUNLU;Silk PLA+;;;;;;;;https://www.sunlu.com/wiki/61
+sunlu-high-speed-pla;filaments;SUNLU;High Speed PLA;;;;;;;;https://www.sunlu.com/wiki/61
+sunlu-petg;filaments;SUNLU;PETG;;;;;;;;https://www.sunlu.com/wiki/61
+sunlu-petg-cf;filaments;SUNLU;PETG-CF;;;;;;;;https://www.sunlu.com/wiki/61
+sunlu-abs;filaments;SUNLU;ABS;;;;;;;;https://www.sunlu.com/wiki/61
+sunlu-abs-gf;filaments;SUNLU;ABS-GF;;;;;;;;https://www.sunlu.com/wiki/61
+sunlu-asa;filaments;SUNLU;ASA;;;;;;;;https://www.sunlu.com/wiki/61
+sunlu-tpu-95a;filaments;SUNLU;TPU 95A;;;;;;;;https://www.sunlu.com/wiki/61
+sunlu-pa6-cf;filaments;SUNLU;PA6-CF;;;;;;;;https://www.sunlu.com/wiki/61
+sunlu-pa6-gf;filaments;SUNLU;PA6-GF;;;;;;;;https://www.sunlu.com/wiki/61
+sunlu-pa12-cf;filaments;SUNLU;PA12-CF;;;;;;;;https://www.sunlu.com/wiki/61
+sunlu-pc;filaments;SUNLU;PC;;;;;;;;https://www.sunlu.com/wiki/61
+sunlu-pp;filaments;SUNLU;PP;;;;;;;;https://www.sunlu.com/wiki/61
+sunlu-peek;filaments;SUNLU;PEEK;;;;;;;;https://www.sunlu.com/products/peek-high-performance-filament
+jayo-pla;filaments;JAYO;PLA;;;;;;;;https://jayo3d.com/
+jayo-pla-plus;filaments;JAYO;PLA+;;;;;;;;https://jayo3d.com/
+jayo-pla-matte;filaments;JAYO;PLA Matte;;;;;;;;https://jayo3d.com/
+jayo-silk-pla;filaments;JAYO;Silk PLA;;;;;;;;https://jayo3d.com/
+jayo-petg;filaments;JAYO;PETG;;;;;;;;https://jayo3d.com/
+jayo-abs;filaments;JAYO;ABS;;;;;;;;https://jayo3d.com/
+jayo-tpu-95a;filaments;JAYO;TPU 95A;;;;;;;;https://jayo3d.com/
+fiberlogy-easy-pla;filaments;Fiberlogy;Easy PLA;59.5;PLN;różne warianty / various options;;True;False;2026-10-24;https://fiberlogy.com/product/filament-easy-pla/
+fiberlogy-easy-petg;filaments;Fiberlogy;Easy PETG;;;;;;;;https://fiberlogy.com/filamenty/petg/easy-petg/
+fiberlogy-pla-pluscf;filaments;Fiberlogy;PLA+CF;;;;;;;;https://fiberlogy.com/product-category/pla/
+fiberlogy-petg-pluscf;filaments;Fiberlogy;PETG+CF;;;;;;;;https://fiberlogy.com/product-category/pla/
+fiberlogy-asa;filaments;Fiberlogy;ASA;;;;;;;;https://fiberlogy.com/product-category/pla/
+fiberlogy-nylon-pa12;filaments;Fiberlogy;Nylon PA12;;;;;;;;https://fiberlogy.com/product-category/pla/
+fiberlogy-nylon-pa12-pluscf;filaments;Fiberlogy;Nylon PA12+CF;;;;;;;;https://fiberlogy.com/product-category/pla/
+fiberlogy-abs-plusgf;filaments;Fiberlogy;ABS+GF;;;;;;;;https://fiberlogy.com/product-category/pla/
+fiberlogy-fiberflex-40d;filaments;Fiberlogy;FiberFlex 40D;;;;;;;;https://fiberlogy.com/product-category/pla/
+fiberlogy-pctg;filaments;Fiberlogy;PCTG;;;;;;;;https://fiberlogy.com/product-category/pla/
+fiberlogy-petg-fr-v0;filaments;Fiberlogy;PETG FR V0;;;;;;;;https://fiberlogy.com/product-category/pla/
+rosa3d-pla-starter;filaments;ROSA3D;PLA Starter;59.9;PLN;1 kg ReFill;PLA Starter ReFill 1kg, wybrane kolory / selected colours;False;False;2026-10-24;https://www.rosa3d.pl/filament/pla/pla-starter
+rosa3d-pet-g-standard-hs;filaments;ROSA3D;PET-G Standard HS;;;;;;;;https://www.rosa3d.pl/filament/pet-g/pet-g-standard-hs.html
+rosa3d-pla-lw-aero;filaments;ROSA3D;PLA LW Aero;;;;;;;;https://www.rosa3d.pl/pliki-do-pobrania
+rosa3d-pet-g-plus-10-cf;filaments;ROSA3D;PET-G + 10 CF;;;;;;;;https://www.rosa3d.pl/pliki-do-pobrania
+rosa3d-asa;filaments;ROSA3D;ASA;;;;;;;;https://www.rosa3d.pl/pliki-do-pobrania
+rosa3d-pa12-plus15cf;filaments;ROSA3D;PA12+15CF;;;;;;;;https://www.rosa3d.pl/pliki-do-pobrania
+rosa3d-pla-cf-home-decor;filaments;ROSA3D;PLA-CF Home Decor;;;;;;;;https://www.rosa3d.pl/pliki-do-pobrania
+rosa3d-petg-esd;filaments;ROSA3D;PETG ESD;;;;;;;;https://www.rosa3d.pl/pliki-do-pobrania
+rosa3d-pet-g-plus-30-gf;filaments;ROSA3D;PET-G + 30 GF;;;;;;;;https://www.rosa3d.pl/pliki-do-pobrania
+prusa-prusament-pla;filaments;Prusa;Prusament PLA;29.99;EUR;1 kg;Prusa Orange, Jet Black lub standardowe kolory / regular colours;False;False;2026-10-24;https://prusament.com/pl/materials/prusament-pla/
+prusa-prusament-petg;filaments;Prusa;Prusament PETG;29.99;EUR;1 kg;Prusa Orange, Jet Black / regular colours;False;False;2026-10-24;https://prusament.com/pl/materials/prusament-petg/
+prusa-prusament-asa;filaments;Prusa;Prusament ASA;29.99;EUR;850 g;Prusa Orange 850g;False;False;2026-10-24;https://prusament.com/pl/materials/prusament-asa/
+prusa-prusament-pc-blend;filaments;Prusa;Prusament PC Blend;49.99;EUR;970 g;Prusa Orange / standard colour;False;False;2026-10-24;https://prusament.com/pl/
+prusa-prusament-pc-blend-carbon-fiber;filaments;Prusa;Prusament PC Blend Carbon Fiber;59.99;EUR;800 g;Black / czarny;False;False;2026-10-24;https://prusament.com/pl/
+prusa-prusament-pa11-carbon-fiber;filaments;Prusa;Prusament PA11 Carbon Fiber;99.99;EUR;800 g;Black / czarny;False;False;2026-10-24;https://prusament.com/pl/
+prusa-prusament-tpu-95a;filaments;Prusa;Prusament TPU 95A;38.99;EUR;500 g;Natural 500g;False;False;2026-10-24;https://prusament.com/pl/materials/prusament-tpu-95a/
+prusa-prusament-pp;filaments;Prusa;Prusament PP;;;;;;;;https://www.prusa3d.com/category/prusament/
+prusa-prusament-pvb;filaments;Prusa;Prusament PVB;24.99;EUR;500 g;Natural Transparent;False;False;2026-10-24;https://prusament.com/pl/
+polymaker-panchroma-matte-pla;filaments;Polymaker;Panchroma Matte PLA;;;;;;;;https://shop.polymaker.com/pages/filament-guide
+polymaker-polylite-pla-pro;filaments;Polymaker;PolyLite PLA Pro;;;;;;;;https://shop.polymaker.com/pages/filament-guide
+polymaker-polylite-petg;filaments;Polymaker;PolyLite PETG;;;;;;;;https://shop.polymaker.com/pages/filament-guide
+polymaker-polymaker-asa;filaments;Polymaker;Polymaker ASA;;;;;;;;https://shop.polymaker.com/pages/filament-guide
+polymaker-polymax-pc;filaments;Polymaker;PolyMax PC;;;;;;;;https://shop.polymaker.com/pages/filament-guide
+poly-polylite-abs;filaments;Polymaker;PolyLite ABS;;;;;;;;https://shop.polymaker.com/products/polylite-abs/
+polymaker-polymax-pc-fr;filaments;Polymaker;PolyMax PC-FR;;;;;;;;https://shop.polymaker.com/products/polymax-pc-fr/
+polymaker-fiberon-pa6-cf20;filaments;Polymaker;Fiberon PA6-CF20;;;;;;;;https://shop.polymaker.com/pages/filament-guide
+polymaker-fiberon-pa6-gf25;filaments;Polymaker;Fiberon PA6-GF25;;;;;;;;https://shop.polymaker.com/pages/filament-guide
+polymaker-fiberon-pet-cf17;filaments;Polymaker;Fiberon PET-CF17;;;;;;;;https://shop.polymaker.com/pages/filament-guide
+polymaker-fiberon-asa-cf08;filaments;Polymaker;Fiberon ASA-CF08;;;;;;;;https://shop.polymaker.com/pages/filament-guide
+polymaker-fiberon-pps-cf10;filaments;Polymaker;Fiberon PPS-CF10;;;;;;;;https://shop.polymaker.com/pages/filament-guide
+polymaker-polylite-lw-pla;filaments;Polymaker;PolyLite LW-PLA;;;;;;;;https://shop.polymaker.com/pages/filament-guide
+polymaker-polyflex-tpu95-hf;filaments;Polymaker;PolyFlex TPU95-HF;;;;;;;;https://shop.polymaker.com/pages/filament-guide
+bambu-pla-basic;filaments;Bambu Lab;PLA Basic;;;;;;;;https://bambulab-eu.myshopify.com/en-pl/products/pla-basic-filament
+bambu-tpu-90a;filaments;Bambu Lab;TPU 90A;;;;;;;;https://us.store.bambulab.com/products/tpu-85a-tpu-90a/
+bambu-tpu-85a;filaments;Bambu Lab;TPU 85A;;;;;;;;https://us.store.bambulab.com/products/tpu-85a-tpu-90a/
+bambu-tpu-for-ams;filaments;Bambu Lab;TPU for AMS;;;;;;;;https://us.store.bambulab.com/collections/bambu-lab-3d-printer-filament
+rosa-pla-starter-neon-green-glow-uv;filaments;ROSA3D;PLA Starter Neon Green Glow in the Dark UV Glow;73.02;PLN;0,5 kg;Neon Green Glow UV;False;True;2026-10-24;https://www.rosa3d.pl/filament-3d-pla-starter-neon-green-glow-in-the-dark-uv-glow-05kg-175mm
+rosa-petg-hs-neon-green-uv;filaments;ROSA3D;PET-G Standard HS Neon Green (UV);;;;;;;;https://www.rosa3d.pl/filament-3d-refill-pet-g-standard-hs-neon-green-refill-1kg-175mm
+rosa-petg-hs-neon-yellow-uv;filaments;ROSA3D;PET-G Standard HS Neon Yellow (UV);;;;;;;;https://www.rosa3d.pl/filament-3d-refill-pet-g-standard-hs-neon-yellow-refill-1kg-175mm
+fiberlogy-easy-petg-pure-tr;filaments;Fiberlogy;Easy PET-G Pure TR (surowiec food-contact);;;;;;;;https://fiberlogy.com/filamenty/petg/easy-petg/
+elegoo-standard-resin-resin;resins;ELEGOO;Standard Resin;15.99;EUR;1 kg;Standard Resin 1kg;True;False;2026-10-24;https://eu.elegoo.com/en-pl/pages/elegoo-resins
+elegoo-8k-standard-resin-resin;resins;ELEGOO;8K Standard Resin;27.99;EUR;1 kg;8K Standard Resin;True;False;2026-10-24;https://eu.elegoo.com/en-pl/pages/elegoo-resins
+elegoo-abs-like-resin-v3-0-resin;resins;ELEGOO;ABS-Like Resin V3.0;18.99;EUR;1 kg;ABS-Like Resin V3.0 (Mint Green 1kg);True;False;2026-10-24;https://eu.elegoo.com/en-pl/pages/elegoo-resins
+elegoo-abs-like-ultra-resin-resin;resins;ELEGOO;ABS-Like Ultra Resin;21.99;EUR;1 kg;ABS-Like Ultra Resin;True;False;2026-10-24;https://eu.elegoo.com/en-pl/pages/elegoo-resins
+elegoo-water-washable-resin-v2-0-resin;resins;ELEGOO;Water-Washable Resin V2.0;16.99;EUR;1 kg;Water-Washable Resin V2.0 1kg;True;False;2026-10-24;https://eu.elegoo.com/en-pl/pages/elegoo-resins
+elegoo-tough-resin-resin;resins;ELEGOO;Tough Resin;32.99;EUR;1 kg;Tough Resin;True;False;2026-10-24;https://eu.elegoo.com/en-pl/pages/elegoo-resins
+elegoo-plant-based-resin-resin;resins;ELEGOO;Plant-Based Resin;26.99;EUR;1 kg;Plant-Based Resin 1kg;True;False;2026-10-24;https://eu.elegoo.com/en-pl/pages/elegoo-resins
+anycubic-standard-resin-v2-resin;resins;Anycubic;Standard Resin V2;28.31;USD;1 kg;Gray 1kg (EU shipping);False;False;2026-10-24;https://store.anycubic.com/products/standard-resin-v2
+anycubic-abs-like-resin-pro-2-resin;resins;Anycubic;ABS-Like Resin Pro 2;;;;;;;;https://store.anycubic.com/pages/resin-user-manual
+anycubic-water-wash-resin-2-0-resin;resins;Anycubic;Water-Wash Resin 2.0;;;;;;;;https://store.anycubic.com/pages/resin-user-manual
+anycubic-tough-resin-2-0-resin;resins;Anycubic;Tough Resin 2.0;;;;;;;;https://store.anycubic.com/pages/resin-user-manual
+anycubic-high-speed-resin-2-0-resin;resins;Anycubic;High Speed Resin 2.0;;;;;;;;https://store.anycubic.com/pages/resin-user-manual
+sunlu-standard-resin-resin;resins;SUNLU;Standard Resin;;;;;;;;https://www.sunlu.com/
+sunlu-abs-like-resin-resin;resins;SUNLU;ABS-Like Resin;;;;;;;;https://www.sunlu.com/
+sunlu-water-washable-resin-resin;resins;SUNLU;Water Washable Resin;;;;;;;;https://www.sunlu.com/
+siraya-tech-fast-abs-like-resin;resins;Siraya Tech;Fast ABS-Like;;;;;;;;https://siraya.tech/
+siraya-tech-tenacious-resin;resins;Siraya Tech;Tenacious;;;;;;;;https://siraya.tech/
+phrozen-neon-resin;resins;Phrozen;Standard Neon Resin;;;;;;;;https://eu.phrozen3d.com/products/neon-resin
+anycubic-plant-based-uv-resin-2;resins;Anycubic;Plant-Based UV Resin 2.0;;;;;;;;https://store.anycubic.com/pages/resin-user-manual
