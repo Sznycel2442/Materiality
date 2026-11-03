@@ -3,12 +3,13 @@ import { fileURLToPath } from 'node:url';
 import { additions, updates, handbookAdditions, checkedOn, sources } from '../data/catalog-expansion.mjs';
 import { polymakerTDS } from '../data/documents.mjs';
 import { additions as wikiAdditions, handbookAdditions as wikiGuides, sources as wikiSources } from '../data/ultimate-expansion.mjs';
+import { additions as engineeringAdditions, checkedOn as engineeringCheckedOn, sources as engineeringSources } from '../data/engineering-expansion.mjs';
 import { fillamentumDocuments, overtureDocuments, otherDocuments, sharedDocuments } from '../data/ultimate-documents.mjs';
 
 const root = new URL('../', import.meta.url);
 const read = name => readFile(new URL(name, root), 'utf8');
 const db = JSON.parse(await read('materiality-data.json'));
-for (const product of [...additions,...wikiAdditions]) {
+for (const product of [...additions,...wikiAdditions,...engineeringAdditions]) {
   const at = db.filaments.findIndex(d => d.id === product.id);
   if (at < 0) db.filaments.push(structuredClone(product));
   else db.filaments[at] = structuredClone(product);
@@ -32,12 +33,12 @@ for (const guide of [...handbookAdditions,...wikiGuides]) {
   const at = db.handbook.findIndex(d => d.base === guide.base);
   if (at < 0) db.handbook.push(guide); else db.handbook[at] = guide;
 }
-Object.assign(db.sources, sources, wikiSources);
-for (const [brand,url] of Object.entries({...sources,...wikiSources})) {
+Object.assign(db.sources, sources, wikiSources, engineeringSources);
+for (const [brand,url] of Object.entries({...sources,...wikiSources,...engineeringSources})) {
   if (!db.sourceLinks.some(d => d.url === url)) db.sourceLinks.push({label:`${brand} — katalog producenta`,url});
 }
-db.meta.updated = checkedOn;
-db.meta.catalogExpansionCheckedOn = checkedOn;
+db.meta.updated = engineeringCheckedOn;
+db.meta.catalogExpansionCheckedOn = engineeringCheckedOn;
 // Document availability does not imply that all product measurements were transcribed.
 const fiberDocuments = JSON.parse(await read('data/fiberlogy-documents.json'));
 for (const [id,path] of Object.entries(polymakerTDS)) {

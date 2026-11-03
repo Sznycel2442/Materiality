@@ -23,7 +23,7 @@ try {
   const errors=[];
   page.on('pageerror',err=>errors.push(err.message));
   await page.goto(`http://127.0.0.1:${server.address().port}/Materiality/`);
-  await page.waitForFunction(()=>Number(document.getElementById('statFil')?.textContent)===293);
+  await page.waitForFunction(()=>Number(document.getElementById('statFil')?.textContent)===302);
   await page.evaluate(()=>go('filaments'));
   assert.equal(await page.locator('#filGrid .product-card').count(),48,'Initial catalog is paged');
   await page.evaluate(()=>showMoreCatalog('filaments'));
@@ -43,14 +43,14 @@ try {
   assert.ok(await page.locator('#overlay a[href="https://shop.polymaker.com/products/polymax-pc"]').count());
   await page.evaluate(()=>closeModal());
   // Exercise the actual search field, including aliases and multiword queries.
-  for(const [query,expected]of [['PC-CF','3dxtech-pc-cf'],['eSUN GF','esun-epa-gf'],['nylon PA612','polymaker-fiberon-pa612-cf15'],['JAYO Wood','jayo-wood']]){
+  for(const [query,expected]of [['PC-CF','3dxtech-pc-cf'],['eSUN GF','esun-epa-gf'],['nylon PA612','polymaker-fiberon-pa612-cf15'],['JAYO Wood','jayo-wood'],['JAYO PA6-CF','jayo-pa6-cf'],['Nanovia PC CF','nanovia-pc-cf'],['eSUN PETG CF','esun-epetg-cf']]){
     await page.locator('#search-filaments').fill(query);
     const matches=await page.evaluate(()=>filtered('filaments').map(d=>d.id));
     assert.ok(matches.includes(expected),`${query}: ${matches.join(', ')}`);
   }
   await page.locator('#search-filaments').fill('');
   await page.evaluate(()=>{filterChange('filaments','brand','eSUN');filterChange('filaments','tag','GF');});
-  assert.deepEqual(await page.evaluate(()=>filtered('filaments').map(d=>d.id)),['esun-epa-gf']);
+  assert.deepEqual(await page.evaluate(()=>filtered('filaments').map(d=>d.id)),['esun-eabs-gf','esun-epa-gf']);
   await page.evaluate(()=>{filterChange('filaments','brand','');filterChange('filaments','tag','ALL');});
   // All additions and every modal tab must render in both languages.
   await page.evaluate(()=>{
@@ -78,7 +78,7 @@ try {
   await page.evaluate(()=>exportJSON());
   const download=await downloadEvent;
   const stream=await download.createReadStream();let exported='';for await(const chunk of stream)exported+=chunk;
-  assert.equal(JSON.parse(exported).filaments.length,293);
+  assert.equal(JSON.parse(exported).filaments.length,302);
   await page.evaluate(()=>{go('docs');filterDocuments('brand','Fiberlogy');filterDocuments('type','SDS');filterDocuments('language','PL');});
   await page.locator('#documentSearch').fill('PA12');
   const pdfMatches=await page.evaluate(()=>matchingDocuments());

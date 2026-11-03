@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Materiality",
-    "updated": "2026-11-03",
+    "updated": "2026-11-04",
     "sourceDisclaimer": "Zalecenia rodzin materiałów są orientacyjne. Sprawdź profil i TDS konkretnej szpuli. Kontakt z żywnością wymaga weryfikacji gotowego wydruku.",
-    "catalogExpansionCheckedOn": "2026-11-03"
+    "catalogExpansionCheckedOn": "2026-11-04"
   },
   "filaments": [
     {
@@ -2405,7 +2405,7 @@
       "flexStrength": null,
       "impactXY": null,
       "moisture": null,
-      "source": "https://www.sunlu.com/wiki/61",
+      "source": "https://store.sunlu.com/products/petg-cfpetg-carbon-fiber-3d-printer-filament-1kg",
       "tds": null,
       "reference": null,
       "evidence": "catalog",
@@ -2421,8 +2421,8 @@
         "composite"
       ],
       "profileOrigin": "family",
-      "imageCredit": null,
-      "imageUrl": null,
+      "imageCredit": "SUNLU",
+      "imageUrl": "assets/materials/sunlu-petg-cf.jpg",
       "printGuide": {
         "fan": [
           20,
@@ -2439,7 +2439,8 @@
         "dryingBasis": "prusament-reference",
         "dryingSource": "https://help.prusa3d.com/pl/article/suszenie-filamentu_332086",
         "storage": "sealed"
-      }
+      },
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0152/6507/1190/files/PETGCarbonFiber_28fb6bba-82b2-42a1-a693-682d3483aee6.jpg?v=1786734906&width=600"
     },
     {
       "id": "sunlu-abs",
@@ -2734,7 +2735,7 @@
       "flexStrength": null,
       "impactXY": null,
       "moisture": null,
-      "source": "https://www.sunlu.com/wiki/61",
+      "source": "https://store.sunlu.com/products/nylon6-carbon-fiber-pa6-cf-3d-printer-filament-1kg",
       "tds": null,
       "reference": null,
       "evidence": "catalog",
@@ -2750,8 +2751,8 @@
         "composite"
       ],
       "profileOrigin": "family",
-      "imageCredit": null,
-      "imageUrl": null,
+      "imageCredit": "SUNLU",
+      "imageUrl": "assets/materials/sunlu-pa6-cf.png",
       "printGuide": {
         "fan": [
           0,
@@ -2768,7 +2769,8 @@
         "dryingBasis": "unknown",
         "dryingSource": null,
         "storage": "dry-box"
-      }
+      },
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0152/6507/1190/files/SUNLUPA6-CF1KG_1.png?v=1776406894&width=600"
     },
     {
       "id": "sunlu-pa6-gf",
@@ -2943,7 +2945,7 @@
       "flexStrength": null,
       "impactXY": null,
       "moisture": null,
-      "source": "https://www.sunlu.com/wiki/61",
+      "source": "https://store.sunlu.com/products/sunlu-pc-polycarbonate-3d-printer-filament-1kg",
       "tds": null,
       "reference": null,
       "evidence": "catalog",
@@ -2959,8 +2961,8 @@
         "heat"
       ],
       "profileOrigin": "family",
-      "imageCredit": null,
-      "imageUrl": null,
+      "imageCredit": "SUNLU",
+      "imageUrl": "assets/materials/sunlu-pc.png",
       "printGuide": {
         "fan": [
           0,
@@ -2977,7 +2979,8 @@
         "dryingBasis": "prusament-reference",
         "dryingSource": "https://help.prusa3d.com/pl/article/suszenie-filamentu_332086",
         "storage": "dry-box"
-      }
+      },
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0152/6507/1190/files/pcfilament1kg_6.png?v=1773391789&width=600"
     },
     {
       "id": "sunlu-pp",
@@ -4196,8 +4199,8 @@
         "composite"
       ],
       "profileOrigin": "family",
-      "imageCredit": null,
-      "imageUrl": null,
+      "imageCredit": "Fiberlogy",
+      "imageUrl": "assets/materials/fiberlogy-nylon-pa12-pluscf.jpg",
       "printGuide": {
         "fan": [
           0,
@@ -4246,7 +4249,8 @@
           "url": "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_SDS_NYLON-PA12-CF15_FR.pdf",
           "checkedOn": "2026-11-03"
         }
-      ]
+      ],
+      "imageSourceUrl": "https://fiberlogy.com/app/uploads/2026/07/FIBERLOGY_NYLON_PA12_CF-175-100-Black-side.jpg"
     },
     {
       "id": "fiberlogy-abs-plusgf",
@@ -4295,8 +4299,8 @@
         "composite"
       ],
       "profileOrigin": "family",
-      "imageCredit": null,
-      "imageUrl": null,
+      "imageCredit": "Fiberlogy",
+      "imageUrl": "assets/materials/fiberlogy-abs-plusgf.jpg",
       "printGuide": {
         "fan": [
           0,
@@ -4339,7 +4343,8 @@
           "url": "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_ABSGF_SDS_DE.pdf",
           "checkedOn": "2026-11-03"
         }
-      ]
+      ],
+      "imageSourceUrl": "https://fiberlogy.com/app/uploads/2026/07/FIBERLOGY_ABS_GF-175-100-Gray-side-1.jpg"
     },
     {
       "id": "fiberlogy-fiberflex-40d",
@@ -6445,7 +6450,7 @@
       "flexStrength": 96.6,
       "impactXY": null,
       "moisture": null,
-      "source": "https://shop.polymaker.com/products/polymax-pc-fr/",
+      "source": "https://shop.polymaker.com/products/polymax-pc-fr",
       "tds": "https://polymaker.com/wp-content/uploads/TDS_Polymaker_PolyMax-PC-FR_V5.5_2026-01-06_EN.pdf",
       "reference": null,
       "evidence": "product-data",
@@ -6461,8 +6466,8 @@
         "heat"
       ],
       "profileOrigin": "family",
-      "imageCredit": null,
-      "imageUrl": null,
+      "imageCredit": "Polymaker",
+      "imageUrl": "assets/materials/polymaker-polymax-pc-fr.png",
       "impactNotched": 11.7,
       "density": 1.2,
       "tensileModulus": 2634,
@@ -6502,7 +6507,8 @@
           "url": "https://polymaker.com/wp-content/uploads/TDS_Polymaker_PolyMax-PC-FR_V5.5_2026-01-06_EN.pdf",
           "checkedOn": "2026-11-03"
         }
-      ]
+      ],
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0548/7299/7945/files/PolyMax-PC-FR_1.75mm_1kg_Black_8695b1e4-4e6f-484a-ab4d-e68bc524a1fb.png?v=1691584618&width=600"
     },
     {
       "id": "polymaker-fiberon-pa6-cf20",
@@ -6535,7 +6541,7 @@
       "flexStrength": null,
       "impactXY": null,
       "moisture": null,
-      "source": "https://shop.polymaker.com/pages/filament-guide",
+      "source": "https://shop.polymaker.com/products/fiberon-pa6-cf20",
       "tds": "https://polymaker.com/wp-content/uploads/TDS_FIBERON-PA6-CF20_V1.1_EN.pdf",
       "reference": null,
       "evidence": "catalog",
@@ -6551,8 +6557,8 @@
         "composite"
       ],
       "profileOrigin": "family",
-      "imageCredit": null,
-      "imageUrl": null,
+      "imageCredit": "Polymaker",
+      "imageUrl": "assets/materials/polymaker-fiberon-pa6-cf20.png",
       "printGuide": {
         "fan": [
           0,
@@ -6578,7 +6584,8 @@
           "url": "https://polymaker.com/wp-content/uploads/TDS_FIBERON-PA6-CF20_V1.1_EN.pdf",
           "checkedOn": "2026-11-03"
         }
-      ]
+      ],
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0548/7299/7945/files/FG03001_Isometric_Top.png?v=1721220020&width=600"
     },
     {
       "id": "polymaker-fiberon-pa6-gf25",
@@ -6688,7 +6695,7 @@
       "flexStrength": null,
       "impactXY": null,
       "moisture": null,
-      "source": "https://shop.polymaker.com/pages/filament-guide",
+      "source": "https://shop.polymaker.com/products/fiberon-pet-cf17",
       "tds": "https://polymaker.com/wp-content/uploads/lana-downloads/TDS_FIBERON-PET-CF17_V1.0_EN.pdf",
       "reference": null,
       "evidence": "catalog",
@@ -6705,8 +6712,8 @@
         "composite"
       ],
       "profileOrigin": "family",
-      "imageCredit": null,
-      "imageUrl": null,
+      "imageCredit": "Polymaker",
+      "imageUrl": "assets/materials/polymaker-fiberon-pet-cf17.png",
       "printGuide": {
         "fan": [
           20,
@@ -6732,7 +6739,8 @@
           "url": "https://polymaker.com/wp-content/uploads/lana-downloads/TDS_FIBERON-PET-CF17_V1.0_EN.pdf",
           "checkedOn": "2026-11-03"
         }
-      ]
+      ],
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0548/7299/7945/files/FL01001_Isometric_Top.png?v=1721220229&width=600"
     },
     {
       "id": "polymaker-fiberon-asa-cf08",
@@ -6843,7 +6851,7 @@
       "flexStrength": null,
       "impactXY": null,
       "moisture": null,
-      "source": "https://shop.polymaker.com/pages/filament-guide",
+      "source": "https://shop.polymaker.com/products/fiberon-pps-cf10",
       "tds": "https://polymaker.com/wp-content/uploads/TDS_FIBERON-PPS-CF10_V1.1_EN-1.pdf",
       "reference": null,
       "evidence": "catalog",
@@ -6860,8 +6868,8 @@
         "composite"
       ],
       "profileOrigin": "family",
-      "imageCredit": null,
-      "imageUrl": null,
+      "imageCredit": "Polymaker",
+      "imageUrl": "assets/materials/polymaker-fiberon-pps-cf10.png",
       "printGuide": {
         "fan": [
           0,
@@ -6887,7 +6895,8 @@
           "url": "https://polymaker.com/wp-content/uploads/TDS_FIBERON-PPS-CF10_V1.1_EN-1.pdf",
           "checkedOn": "2026-11-03"
         }
-      ]
+      ],
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0548/7299/7945/files/FM01001_Isometric_Top.png?v=1721220390&width=600"
     },
     {
       "id": "polymaker-polylite-lw-pla",
@@ -7846,14 +7855,14 @@
       "tensileModulus": null,
       "tensileStrength": 39,
       "elongation": null,
-      "source": "https://www.esun3d.com/page-filter",
+      "source": "https://esun3dstore.com/products/epla-cf",
       "tds": "https://www.esun3d.com/uploads/eSUN-3D-Product-Manual2024.pdf",
       "reference": "https://www.esun3d.com/uploads/eSUN-3D-Product-Manual2024.pdf",
       "evidence": "product-data",
       "spool": "check",
       "photo": null,
-      "imageUrl": null,
-      "imageCredit": null,
+      "imageUrl": "assets/materials/esun-epla-cf.jpg",
+      "imageCredit": "eSUN",
       "categories": [
         "easy",
         "aesthetic",
@@ -7887,7 +7896,8 @@
         "flexModulus": "moduł zginania · katalog 2024",
         "tensileStrength": "rozciąganie · katalog 2024"
       },
-      "documentKind": "manufacturer-manual"
+      "documentKind": "manufacturer-manual",
+      "imageSourceUrl": "https://ueeshop.ly200-cdn.com/u_file/UPBB/UPBB609/2412/25/products/4231548107.jpg"
     },
     {
       "id": "esun-epla-st",
@@ -8599,14 +8609,14 @@
       "tensileModulus": null,
       "tensileStrength": 140,
       "elongation": null,
-      "source": "https://www.esun3d.com/page-filter",
+      "source": "https://esun3dstore.com/products/epa-cf",
       "tds": "https://www.esun3d.com/uploads/eSUN-3D-Product-Manual2024.pdf",
       "reference": "https://www.esun3d.com/uploads/eSUN-3D-Product-Manual2024.pdf",
       "evidence": "product-data",
       "spool": "check",
       "photo": null,
-      "imageUrl": null,
-      "imageCredit": null,
+      "imageUrl": "assets/materials/esun-epa-cf.jpg",
+      "imageCredit": "eSUN",
       "categories": [
         "engineering",
         "strong",
@@ -8640,7 +8650,8 @@
         "flexModulus": "moduł zginania · katalog 2024",
         "tensileStrength": "rozciąganie · katalog 2024"
       },
-      "documentKind": "manufacturer-manual"
+      "documentKind": "manufacturer-manual",
+      "imageSourceUrl": "https://ueeshop.ly200-cdn.com/u_file/UPBB/UPBB609/2604/20/products/ee64a236ba.jpg"
     },
     {
       "id": "esun-epa-gf",
@@ -12147,8 +12158,8 @@
       "evidence": "catalog",
       "spool": "check",
       "photo": null,
-      "imageUrl": null,
-      "imageCredit": null,
+      "imageUrl": "assets/materials/fiberlogy-pctg-cf.jpg",
+      "imageCredit": "Fiberlogy",
       "categories": [
         "engineering",
         "strong",
@@ -12208,7 +12219,8 @@
           "url": "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_SDS_PCTG-CF_FR.pdf",
           "checkedOn": "2026-11-03"
         }
-      ]
+      ],
+      "imageSourceUrl": "https://fiberlogy.com/app/uploads/2026/07/FIBERLOGY_PCTGCF10-175-075-Black-side.jpg"
     },
     {
       "id": "spectrum-pc-cf",
@@ -12338,8 +12350,8 @@
       "evidence": "catalog",
       "spool": "check",
       "photo": null,
-      "imageUrl": null,
-      "imageCredit": null,
+      "imageUrl": "assets/materials/spectrum-pc-275.jpg",
+      "imageCredit": "Spectrum Filaments",
       "categories": [
         "engineering",
         "strong",
@@ -12382,7 +12394,8 @@
           "url": "https://spectrumfilaments.com/wp-content/uploads/2023/11/en_msds_pc275.pdf",
           "checkedOn": "2026-11-03"
         }
-      ]
+      ],
+      "imageSourceUrl": "https://spectrumfilaments.com/wp-content/uploads/2023/10/pc-275-tr-blue-1.jpg"
     },
     {
       "id": "spectrum-pc-abs-fr-v0",
@@ -12506,8 +12519,8 @@
       "evidence": "catalog",
       "spool": "check",
       "photo": null,
-      "imageUrl": null,
-      "imageCredit": null,
+      "imageUrl": "assets/materials/spectrum-pa6-gf30.jpg",
+      "imageCredit": "Spectrum Filaments",
       "categories": [
         "engineering",
         "strong",
@@ -12550,7 +12563,8 @@
           "url": "https://spectrumfilaments.com/wp-content/uploads/2022/10/en_msds_spectrum_pa6_lowwarp_gf30.pdf",
           "checkedOn": "2026-11-03"
         }
-      ]
+      ],
+      "imageSourceUrl": "https://spectrumfilaments.com/wp-content/uploads/2022/10/pa6-low-warp-gf30-natural-1.jpg"
     },
     {
       "id": "spectrum-pa6-cf15s",
@@ -12593,8 +12607,8 @@
       "evidence": "catalog",
       "spool": "check",
       "photo": null,
-      "imageUrl": null,
-      "imageCredit": null,
+      "imageUrl": "assets/materials/spectrum-pa6-cf15s.jpg",
+      "imageCredit": "Spectrum Filaments",
       "categories": [
         "engineering",
         "strong",
@@ -12637,7 +12651,8 @@
           "url": "https://spectrumfilaments.com/wp-content/uploads/2022/10/en_msds_spectrum_pa6_lowwarp_cf15s.pdf",
           "checkedOn": "2026-11-03"
         }
-      ]
+      ],
+      "imageSourceUrl": "https://spectrumfilaments.com/wp-content/uploads/2022/10/pa6-low-warp-cf15s-1.jpg"
     },
     {
       "id": "spectrum-pa6-low-warp",
@@ -12764,8 +12779,8 @@
       "evidence": "catalog",
       "spool": "check",
       "photo": null,
-      "imageUrl": null,
-      "imageCredit": null,
+      "imageUrl": "assets/materials/spectrum-pctg-cf10.jpg",
+      "imageCredit": "Spectrum Filaments",
       "categories": [
         "engineering",
         "strong",
@@ -12808,7 +12823,8 @@
           "url": "https://spectrumfilaments.com/wp-content/uploads/2022/10/filament-spectrum-premium-pctg-cf10_03102022_en.pdf",
           "checkedOn": "2026-11-03"
         }
-      ]
+      ],
+      "imageSourceUrl": "https://spectrumfilaments.com/wp-content/uploads/2022/10/pctg-cf10-1.jpg"
     },
     {
       "id": "spectrum-pctg-gf10",
@@ -22580,6 +22596,768 @@
       "sourceScope": "manufacturer-portfolio",
       "documents": [],
       "tdsPage": "https://forward-am.com/material-portfolio/ultrafuse-filaments-for-fused-filaments-fabrication-fff/"
+    },
+    {
+      "id": "jayo-pa6-cf",
+      "brand": "JAYO",
+      "name": "PA6-CF",
+      "base": "PA6",
+      "group": "PA",
+      "flags": [
+        "CF"
+      ],
+      "level": "advanced",
+      "description": {
+        "pl": "Nylon PA6 do części konstrukcyjnych. Wilgoć silnie wpływa na druk i właściwości.",
+        "en": "PA6 nylon for structural parts; moisture strongly affects printing and performance."
+      },
+      "nozzle": [
+        270,
+        280
+      ],
+      "bed": [
+        50,
+        70
+      ],
+      "settingsKind": "product",
+      "dry": null,
+      "hardened": true,
+      "enclosure": true,
+      "hdt": null,
+      "flexModulus": null,
+      "flexStrength": null,
+      "impactXY": null,
+      "moisture": null,
+      "density": null,
+      "tensileModulus": null,
+      "tensileStrength": null,
+      "elongation": null,
+      "source": "https://store.jayo3d.com/products/jayo-1kg-pa6-cf-nylon-carbon-fiber-3d-printer-filament-1-75mm-heat-resistant",
+      "tds": null,
+      "reference": null,
+      "evidence": "catalog",
+      "spool": "check",
+      "photo": null,
+      "imageUrl": "assets/materials/jayo-pa6-cf.jpg",
+      "imageCredit": "JAYO",
+      "categories": [
+        "engineering",
+        "strong",
+        "composite"
+      ],
+      "profileOrigin": "product",
+      "checkedOn": "2026-11-04",
+      "note": {
+        "pl": "Zakres druku pochodzi z karty produktu JAYO. Producent nie podaje metody pomiaru HDT ani pełnej karty TDS, więc nie przypisujemy tej wartości do pomiarów porównawczych.",
+        "en": "Print range comes from the JAYO product page. With no HDT test method or full TDS supplied, the headline HDT is excluded from measured comparisons."
+      },
+      "printGuide": {
+        "fan": [
+          0,
+          30
+        ],
+        "fanBasis": "unknown",
+        "fanSource": null,
+        "chamber": "enclosure-recommended",
+        "chamberBasis": "family",
+        "chamberSource": "https://help.prusa3d.com/filament-material-guide",
+        "dryingRequired": "strongly-recommended",
+        "dryingTemperature": null,
+        "dryingTime": null,
+        "dryingBasis": "unknown",
+        "dryingSource": "https://store.jayo3d.com/products/jayo-1kg-pa6-cf-nylon-carbon-fiber-3d-printer-filament-1-75mm-heat-resistant",
+        "storage": "dry-box"
+      },
+      "tdsPage": "https://store.jayo3d.com/products/jayo-1kg-pa6-cf-nylon-carbon-fiber-3d-printer-filament-1-75mm-heat-resistant",
+      "sourceScope": "manufacturer-product",
+      "imageSourceUrl": "https://store.jayo3d.com/cdn/shop/files/PA6-CF.webp?v=1761903019&width=600"
+    },
+    {
+      "id": "jayo-pa6-gf",
+      "brand": "JAYO",
+      "name": "PA6-GF",
+      "base": "PA6",
+      "group": "PA",
+      "flags": [
+        "GF"
+      ],
+      "level": "advanced",
+      "description": {
+        "pl": "Nylon PA6 do części konstrukcyjnych. Wilgoć silnie wpływa na druk i właściwości.",
+        "en": "PA6 nylon for structural parts; moisture strongly affects printing and performance."
+      },
+      "nozzle": [
+        270,
+        290
+      ],
+      "bed": [
+        50,
+        70
+      ],
+      "settingsKind": "product",
+      "dry": null,
+      "hardened": true,
+      "enclosure": true,
+      "hdt": null,
+      "flexModulus": null,
+      "flexStrength": null,
+      "impactXY": null,
+      "moisture": null,
+      "density": null,
+      "tensileModulus": null,
+      "tensileStrength": null,
+      "elongation": null,
+      "source": "https://store.jayo3d.com/products/jayo-1kg-pa6-gf-nylon-carbon-fiber-3d-printer-filament-1-75mm-heat-resistant",
+      "tds": null,
+      "reference": null,
+      "evidence": "catalog",
+      "spool": "check",
+      "photo": null,
+      "imageUrl": "assets/materials/jayo-pa6-gf.jpg",
+      "imageCredit": "JAYO",
+      "categories": [
+        "engineering",
+        "strong",
+        "composite"
+      ],
+      "profileOrigin": "product",
+      "checkedOn": "2026-11-04",
+      "note": {
+        "pl": "Karta JAYO podaje niespójne proporcje PA6/GF (80/20 i 75/25). Nie przypisujemy konkretnego udziału włókna ani HDT bez metody badania.",
+        "en": "The JAYO page gives conflicting PA6/GF ratios (80/20 and 75/25). Fiber content and HDT remain unverified without a test method."
+      },
+      "printGuide": {
+        "fan": [
+          0,
+          30
+        ],
+        "fanBasis": "unknown",
+        "fanSource": null,
+        "chamber": "enclosure-recommended",
+        "chamberBasis": "family",
+        "chamberSource": "https://help.prusa3d.com/filament-material-guide",
+        "dryingRequired": "strongly-recommended",
+        "dryingTemperature": null,
+        "dryingTime": null,
+        "dryingBasis": "unknown",
+        "dryingSource": null,
+        "storage": "dry-box"
+      },
+      "tdsPage": "https://store.jayo3d.com/products/jayo-1kg-pa6-gf-nylon-carbon-fiber-3d-printer-filament-1-75mm-heat-resistant",
+      "sourceScope": "manufacturer-product",
+      "imageSourceUrl": "https://store.jayo3d.com/cdn/shop/files/6_-PA6-GF.jpg?v=1761904596&width=600"
+    },
+    {
+      "id": "jayo-pa12-cf",
+      "brand": "JAYO",
+      "name": "PA12-CF",
+      "base": "PA12",
+      "group": "PA",
+      "flags": [
+        "CF"
+      ],
+      "level": "advanced",
+      "description": {
+        "pl": "Nylon PA12 do elementów mechanicznych; zwykle mniej higroskopijny niż PA6, lecz nadal wymaga suszenia.",
+        "en": "PA12 nylon for mechanical parts; generally less hygroscopic than PA6 but still requires drying."
+      },
+      "nozzle": [
+        260,
+        280
+      ],
+      "bed": [
+        50,
+        70
+      ],
+      "settingsKind": "product",
+      "dry": null,
+      "hardened": true,
+      "enclosure": true,
+      "hdt": null,
+      "flexModulus": null,
+      "flexStrength": null,
+      "impactXY": null,
+      "moisture": null,
+      "density": null,
+      "tensileModulus": null,
+      "tensileStrength": null,
+      "elongation": null,
+      "source": "https://store.jayo3d.com/products/jayo-1kg-pa6-gf-nylon-glass-fiber-3d-printer-filament-1-75mm-wear-resistant-copy",
+      "tds": null,
+      "reference": null,
+      "evidence": "catalog",
+      "spool": "check",
+      "photo": null,
+      "imageUrl": "assets/materials/jayo-pa12-cf.jpg",
+      "imageCredit": "JAYO",
+      "categories": [
+        "engineering",
+        "strong",
+        "composite"
+      ],
+      "profileOrigin": "product",
+      "checkedOn": "2026-11-04",
+      "note": {
+        "pl": "Zakres druku pochodzi z karty produktu JAYO. Producent nie podaje metody pomiaru HDT ani pełnej karty TDS, więc nie przypisujemy tej wartości do pomiarów porównawczych.",
+        "en": "Print range comes from the JAYO product page. With no HDT test method or full TDS supplied, the headline HDT is excluded from measured comparisons."
+      },
+      "printGuide": {
+        "fan": [
+          0,
+          30
+        ],
+        "fanBasis": "unknown",
+        "fanSource": null,
+        "chamber": "enclosure-recommended",
+        "chamberBasis": "family",
+        "chamberSource": "https://help.prusa3d.com/filament-material-guide",
+        "dryingRequired": "strongly-recommended",
+        "dryingTemperature": null,
+        "dryingTime": null,
+        "dryingBasis": "unknown",
+        "dryingSource": null,
+        "storage": "dry-box"
+      },
+      "tdsPage": "https://store.jayo3d.com/products/jayo-1kg-pa6-gf-nylon-glass-fiber-3d-printer-filament-1-75mm-wear-resistant-copy",
+      "sourceScope": "manufacturer-product",
+      "imageSourceUrl": "https://store.jayo3d.com/cdn/shop/files/6_-PA12-CF.jpg?v=1761905962&width=600"
+    },
+    {
+      "id": "jayo-easy-pa",
+      "brand": "JAYO",
+      "name": "Easy Nylon (E-PA)",
+      "base": "PA",
+      "group": "PA",
+      "flags": [],
+      "level": "advanced",
+      "description": {
+        "pl": "Nylon do części mechanicznych. Zachowaj stan wilgotności próbki zgodny z dokumentacją.",
+        "en": "Nylon for mechanical parts. Match specimen moisture conditioning to the documentation."
+      },
+      "nozzle": [
+        250,
+        290
+      ],
+      "bed": [
+        70,
+        110
+      ],
+      "settingsKind": "family",
+      "dry": null,
+      "hardened": false,
+      "enclosure": true,
+      "hdt": null,
+      "flexModulus": null,
+      "flexStrength": null,
+      "impactXY": null,
+      "moisture": null,
+      "density": null,
+      "tensileModulus": null,
+      "tensileStrength": null,
+      "elongation": null,
+      "source": "https://store.jayo3d.com/products/jayo-easy-nylone-pa-3d-printer-filament-1-75mm-1kg-spool-3d-printing-copy",
+      "tds": null,
+      "reference": null,
+      "evidence": "catalog",
+      "spool": "check",
+      "photo": null,
+      "imageUrl": "assets/materials/jayo-easy-pa.jpg",
+      "imageCredit": "JAYO",
+      "categories": [
+        "engineering",
+        "strong"
+      ],
+      "profileOrigin": "family",
+      "checkedOn": "2026-11-04",
+      "note": {
+        "pl": "Producent potwierdza produkt, lecz obecna karta nie podaje pełnych parametrów druku. Zakresy są punktem wyjścia dla rodziny PA.",
+        "en": "The product is listed by JAYO, but its current page lacks complete print settings. Ranges are PA family starting points."
+      },
+      "printGuide": {
+        "fan": [
+          0,
+          30
+        ],
+        "fanBasis": "family",
+        "fanSource": "https://help.prusa3d.com/filament-material-guide",
+        "chamber": "enclosure-recommended",
+        "chamberBasis": "family",
+        "chamberSource": "https://help.prusa3d.com/filament-material-guide",
+        "dryingRequired": "strongly-recommended",
+        "dryingTemperature": null,
+        "dryingTime": null,
+        "dryingBasis": "unknown",
+        "dryingSource": null,
+        "storage": "dry-box"
+      },
+      "tdsPage": "https://store.jayo3d.com/products/jayo-easy-nylone-pa-3d-printer-filament-1-75mm-1kg-spool-3d-printing-copy",
+      "sourceScope": "manufacturer-product",
+      "imageSourceUrl": "https://store.jayo3d.com/cdn/shop/files/EPA-BS.jpg?v=1762151813&width=600"
+    },
+    {
+      "id": "esun-epetg-cf",
+      "brand": "eSUN",
+      "name": "ePETG-CF",
+      "base": "PETG",
+      "group": "PETG",
+      "flags": [
+        "CF"
+      ],
+      "level": "easy",
+      "description": {
+        "pl": "Kopoliester do części użytkowych; dobry kompromis między łatwością druku a udarnością.",
+        "en": "A utility copolyester balancing printability and toughness."
+      },
+      "nozzle": [
+        240,
+        260
+      ],
+      "bed": [
+        75,
+        90
+      ],
+      "settingsKind": "product",
+      "dry": [
+        65,
+        ">8 h"
+      ],
+      "hardened": true,
+      "enclosure": false,
+      "hdt": 70,
+      "flexModulus": 3618.54,
+      "flexStrength": 77.2,
+      "impactXY": null,
+      "moisture": null,
+      "density": 1.26,
+      "tensileModulus": null,
+      "tensileStrength": 51.3,
+      "elongation": null,
+      "source": "https://esun3dstore.com/products/petg-cf",
+      "tds": null,
+      "reference": "https://www.esun3d.com/epetg-cf-product",
+      "evidence": "product-data",
+      "spool": "check",
+      "photo": null,
+      "imageUrl": "assets/materials/esun-epetg-cf.jpg",
+      "imageCredit": "eSUN",
+      "categories": [
+        "easy",
+        "strong",
+        "composite"
+      ],
+      "profileOrigin": "product",
+      "checkedOn": "2026-11-04",
+      "note": {
+        "pl": "Pomiary ze strony produktu eSUN. Obecny odnośnik TDS producenta otwiera kartę PET-CF, więc nie przypisujemy jej do PETG-CF.",
+        "en": "Measurements come from the eSUN product page. Its current TDS link opens a PET-CF sheet, so that file is not assigned to PETG-CF."
+      },
+      "printGuide": {
+        "fan": [
+          100,
+          100
+        ],
+        "fanBasis": "product",
+        "fanSource": "https://www.esun3d.com/epetg-cf-product",
+        "chamber": "not-required",
+        "chamberBasis": "family",
+        "chamberSource": "https://help.prusa3d.com/filament-material-guide",
+        "dryingRequired": "required",
+        "dryingTemperature": 65,
+        "dryingTime": ">8 h",
+        "dryingBasis": "product",
+        "dryingSource": "https://www.esun3d.com/epetg-cf-product",
+        "storage": "sealed"
+      },
+      "tdsPage": "https://www.esun3d.com/epetg-cf-product",
+      "documents": [
+        {
+          "type": "SDS",
+          "language": "EN",
+          "url": "https://www.esun3d.com/media/esun/catalog/certification/product/PETG-CF/PETG-CF_MSDS_en.pdf"
+        }
+      ],
+      "measurementMethods": {
+        "hdt": "strona produktu · metoda niepodana",
+        "flexModulus": "XY · strona produktu",
+        "flexStrength": "XY · strona produktu",
+        "tensileStrength": "XY · strona produktu"
+      },
+      "sourceScope": "manufacturer-product",
+      "imageSourceUrl": "https://ueeshop.ly200-cdn.com/u_file/UPBB/UPBB609/2411/29/products/517c9ea617.jpg"
+    },
+    {
+      "id": "esun-eabs-cf",
+      "brand": "eSUN",
+      "name": "eABS-CF",
+      "base": "ABS",
+      "group": "ABS",
+      "flags": [
+        "CF"
+      ],
+      "level": "medium",
+      "description": {
+        "pl": "Tworzywo techniczne do obudów i części użytkowych. Zamknięta komora ogranicza skurcz.",
+        "en": "For functional parts and housings; an enclosure helps limit warping."
+      },
+      "nozzle": [
+        240,
+        270
+      ],
+      "bed": [
+        100,
+        110
+      ],
+      "settingsKind": "product",
+      "dry": [
+        70,
+        ">8 h"
+      ],
+      "hardened": true,
+      "enclosure": true,
+      "hdt": 97.2,
+      "flexModulus": 2694,
+      "flexStrength": 76.2,
+      "impactXY": null,
+      "moisture": null,
+      "density": 1.06,
+      "tensileModulus": null,
+      "tensileStrength": 43.34,
+      "elongation": null,
+      "source": "https://esun3dstore.com/products/abs-cf",
+      "tds": "https://www.esun3d.com/media/esun/catalog/certification/product/ABS-CF/ABS-CF_TDS_V1_2024.07.25.pdf",
+      "reference": "https://www.esun3d.com/eabs-cf-product",
+      "evidence": "product-data",
+      "spool": "check",
+      "photo": null,
+      "imageUrl": "assets/materials/esun-eabs-cf.jpg",
+      "imageCredit": "eSUN",
+      "categories": [
+        "engineering",
+        "strong",
+        "composite"
+      ],
+      "profileOrigin": "product",
+      "checkedOn": "2026-11-04",
+      "note": {
+        "pl": "Wartości ze strony produktu; starszy PDF podaje HDT 94,9°C, a aktualna strona 97,2°C. Porównuj pomiary z tej samej wersji.",
+        "en": "Values are from the current product page. Its HDT is 97.2°C versus 94.9°C in the older PDF; compare the same revision."
+      },
+      "printGuide": {
+        "fan": [
+          0,
+          0
+        ],
+        "fanBasis": "product",
+        "fanSource": "https://www.esun3d.com/eabs-cf-product",
+        "chamber": "enclosure-recommended",
+        "chamberBasis": "family",
+        "chamberSource": "https://help.prusa3d.com/filament-material-guide",
+        "dryingRequired": "required",
+        "dryingTemperature": 70,
+        "dryingTime": ">8 h",
+        "dryingBasis": "product",
+        "dryingSource": "https://www.esun3d.com/eabs-cf-product",
+        "storage": "sealed"
+      },
+      "documents": [
+        {
+          "type": "TDS",
+          "language": "EN",
+          "url": "https://www.esun3d.com/media/esun/catalog/certification/product/ABS-CF/ABS-CF_TDS_V1_2024.07.25.pdf"
+        },
+        {
+          "type": "SDS",
+          "language": "EN",
+          "url": "https://www.esun3d.com/media/esun/catalog/certification/product/ABS-CF/_ABS-CF_MSDS.pdf"
+        }
+      ],
+      "measurementMethods": {
+        "hdt": "strona produktu · obciążenie niepodane",
+        "flexModulus": "XY · strona produktu",
+        "flexStrength": "XY · strona produktu",
+        "tensileStrength": "XY · strona produktu"
+      },
+      "sourceScope": "manufacturer-product",
+      "imageSourceUrl": "https://ueeshop.ly200-cdn.com/u_file/UPBB/UPBB609/2412/11/products/acccd9e244.jpg"
+    },
+    {
+      "id": "esun-eabs-gf",
+      "brand": "eSUN",
+      "name": "eABS-GF",
+      "base": "ABS",
+      "group": "ABS",
+      "flags": [
+        "GF"
+      ],
+      "level": "medium",
+      "description": {
+        "pl": "Tworzywo techniczne do obudów i części użytkowych. Zamknięta komora ogranicza skurcz.",
+        "en": "For functional parts and housings; an enclosure helps limit warping."
+      },
+      "nozzle": [
+        240,
+        270
+      ],
+      "bed": [
+        100,
+        120
+      ],
+      "settingsKind": "product",
+      "dry": [
+        70,
+        ">8 h"
+      ],
+      "hardened": true,
+      "enclosure": true,
+      "hdt": 96.1,
+      "flexModulus": 2459.6,
+      "flexStrength": 76.4,
+      "impactXY": null,
+      "moisture": null,
+      "density": 1.07,
+      "tensileModulus": null,
+      "tensileStrength": 43.91,
+      "elongation": null,
+      "source": "https://www.esun3d.com/eabs-gf-product",
+      "tds": "https://www.esun3d.com/media/esun/catalog/certification/product/ABS-GF/ABS-GF_TDS_V1_2024.07.25.pdf",
+      "reference": "https://www.esun3d.com/eabs-gf-product",
+      "evidence": "product-data",
+      "spool": "check",
+      "photo": null,
+      "imageUrl": null,
+      "imageCredit": null,
+      "categories": [
+        "engineering",
+        "strong",
+        "composite"
+      ],
+      "profileOrigin": "product",
+      "checkedOn": "2026-11-04",
+      "note": {
+        "pl": "Pomiary pochodzą z aktualnej strony produktu; karta PDF jest starszą wersją. Sprawdź różnice przed porównaniem.",
+        "en": "Measurements are from the current product page; the PDF is an older revision. Check differences before comparing."
+      },
+      "printGuide": {
+        "fan": [
+          0,
+          0
+        ],
+        "fanBasis": "product",
+        "fanSource": "https://www.esun3d.com/eabs-gf-product",
+        "chamber": "enclosure-recommended",
+        "chamberBasis": "family",
+        "chamberSource": "https://help.prusa3d.com/filament-material-guide",
+        "dryingRequired": "required",
+        "dryingTemperature": 70,
+        "dryingTime": ">8 h",
+        "dryingBasis": "product",
+        "dryingSource": "https://www.esun3d.com/eabs-gf-product",
+        "storage": "sealed"
+      },
+      "documents": [
+        {
+          "type": "TDS",
+          "language": "EN",
+          "url": "https://www.esun3d.com/media/esun/catalog/certification/product/ABS-GF/ABS-GF_TDS_V1_2024.07.25.pdf"
+        },
+        {
+          "type": "SDS",
+          "language": "EN",
+          "url": "https://www.esun3d.com/media/esun/catalog/certification/product/ABS-GF/ABS-GF_MSDS_EN.pdf"
+        }
+      ],
+      "measurementMethods": {
+        "hdt": "strona produktu · obciążenie niepodane",
+        "flexModulus": "XY · strona produktu",
+        "flexStrength": "XY · strona produktu",
+        "tensileStrength": "XY · strona produktu"
+      },
+      "sourceScope": "manufacturer-product"
+    },
+    {
+      "id": "esun-pet-cf",
+      "brand": "eSUN",
+      "name": "PET-CF",
+      "base": "PET",
+      "group": "PET",
+      "flags": [
+        "CF"
+      ],
+      "level": "advanced",
+      "description": {
+        "pl": "Poliester techniczny PET. Nie jest tym samym materiałem co PETG; obróbka cieplna może zmieniać parametry.",
+        "en": "Engineering PET, distinct from PETG; annealing can change its properties."
+      },
+      "nozzle": [
+        250,
+        300
+      ],
+      "bed": [
+        70,
+        120
+      ],
+      "settingsKind": "tds",
+      "dry": [
+        80,
+        "4–8 h"
+      ],
+      "hardened": true,
+      "enclosure": true,
+      "hdt": 75,
+      "flexModulus": 8264.15,
+      "flexStrength": 135.6,
+      "impactXY": null,
+      "moisture": null,
+      "density": 1.42,
+      "tensileModulus": null,
+      "tensileStrength": 80.32,
+      "elongation": null,
+      "source": "https://www.esun3d.com/pet-cf-product",
+      "tds": "https://www.esun3d.com/media/esun/catalog/certification/product/PET-CF/PET-CF_TDS.pdf",
+      "reference": null,
+      "evidence": "tds",
+      "spool": "check",
+      "photo": null,
+      "imageUrl": null,
+      "imageCredit": null,
+      "categories": [
+        "engineering",
+        "strong",
+        "heat",
+        "composite"
+      ],
+      "profileOrigin": "product",
+      "checkedOn": "2026-11-04",
+      "note": {
+        "pl": "TDS rozdziela HDT przed wyżarzaniem (75°C) i po nim (145°C). Moduł 8264 MPa dotyczy zginania XY, nie rozciągania. PDF zaleca suszenie 4–8 h, a aktualna strona produktu ponad 8 h.",
+        "en": "The TDS separates HDT before annealing (75°C) and after (145°C). The 8264 MPa value is XY flexural modulus, not tensile modulus. The PDF says 4–8 h drying while the current product page says over 8 h."
+      },
+      "printGuide": {
+        "fan": [
+          0,
+          20
+        ],
+        "fanBasis": "product",
+        "fanSource": "https://www.esun3d.com/pet-cf-product",
+        "chamber": "enclosure-recommended",
+        "chamberBasis": "family",
+        "chamberSource": "https://help.prusa3d.com/filament-material-guide",
+        "dryingRequired": "required",
+        "dryingTemperature": 80,
+        "dryingTime": "4–8 h",
+        "dryingBasis": "tds",
+        "dryingSource": "https://www.esun3d.com/media/esun/catalog/certification/product/PET-CF/PET-CF_TDS.pdf",
+        "storage": "sealed"
+      },
+      "hdtOther": 145,
+      "hdtOtherMethod": "0.45 MPa · po wyżarzaniu",
+      "documents": [
+        {
+          "type": "TDS",
+          "language": "EN",
+          "url": "https://www.esun3d.com/media/esun/catalog/certification/product/PET-CF/PET-CF_TDS.pdf"
+        }
+      ],
+      "measurementMethods": {
+        "hdt": "GB/T 1634 · 0.45 MPa · przed wyżarzaniem",
+        "flexModulus": "GB/T 9341 · XY",
+        "flexStrength": "GB/T 9341 · XY",
+        "tensileStrength": "GB/T 1040 · XY"
+      },
+      "sourceScope": "manufacturer-product"
+    },
+    {
+      "id": "nanovia-pc-cf",
+      "brand": "Nanovia",
+      "name": "PC CF",
+      "base": "PC",
+      "group": "PC",
+      "flags": [
+        "CF"
+      ],
+      "level": "advanced",
+      "description": {
+        "pl": "Poliwęglan lub jego mieszanka do części sztywnych i odpornych na ciepło. Właściwości zależą od formulacji.",
+        "en": "Polycarbonate or a blend for rigid, heat-resistant parts; formulation matters."
+      },
+      "nozzle": [
+        270,
+        290
+      ],
+      "bed": [
+        100,
+        140
+      ],
+      "settingsKind": "product",
+      "dry": [
+        100,
+        "6 h"
+      ],
+      "hardened": true,
+      "enclosure": true,
+      "hdt": 144,
+      "flexModulus": null,
+      "flexStrength": null,
+      "impactXY": null,
+      "moisture": null,
+      "density": 1.26,
+      "tensileModulus": 6390,
+      "tensileStrength": 87,
+      "elongation": 2.7,
+      "source": "https://nanovia.tech/en/ref/nanovia-pc-cf/",
+      "tds": null,
+      "reference": "https://nanovia.tech/en/ref/nanovia-pc-cf/",
+      "evidence": "product-data",
+      "spool": "check",
+      "photo": null,
+      "imageUrl": "assets/materials/nanovia-pc-cf.jpg",
+      "imageCredit": "Nanovia",
+      "categories": [
+        "engineering",
+        "strong",
+        "heat",
+        "composite"
+      ],
+      "profileOrigin": "product",
+      "checkedOn": "2026-11-04",
+      "note": {
+        "pl": "Liczby i zakres druku pochodzą z aktualnej strony produktu Nanovia. Udostępniony wcześniej PDF TDS nie otwiera się u producenta; sprawdź kartę swojej partii przed zakupem.",
+        "en": "Values and print range come from the current Nanovia product page. A previously published TDS currently fails at the manufacturer; check the sheet for your batch before buying."
+      },
+      "printGuide": {
+        "fan": [
+          0,
+          30
+        ],
+        "fanBasis": "family",
+        "fanSource": "https://help.prusa3d.com/filament-material-guide",
+        "chamber": "enclosure-recommended",
+        "chamberBasis": "family",
+        "chamberSource": "https://help.prusa3d.com/filament-material-guide",
+        "dryingRequired": "required",
+        "dryingTemperature": 100,
+        "dryingTime": "6 h",
+        "dryingBasis": "product",
+        "dryingSource": "https://nanovia.tech/en/ref/nanovia-pc-cf/",
+        "storage": "dry-box"
+      },
+      "hdtOther": 133,
+      "hdtOtherMethod": "ASTM D648 · 1.8 MPa",
+      "tdsPage": "https://nanovia.tech/en/ref/nanovia-pc-cf/",
+      "documents": [
+        {
+          "type": "SDS",
+          "language": "FR/EN",
+          "url": "https://nanovia.tech/media/nanovia-pc-cf-msds.pdf"
+        }
+      ],
+      "measurementMethods": {
+        "hdt": "ASTM D648 · 0.45 MPa · aktualna strona produktu",
+        "tensileModulus": "ISO 527-2/1A · druk 0°",
+        "tensileStrength": "ISO 527-2/1A · druk 0°"
+      },
+      "sourceScope": "manufacturer-product",
+      "imageSourceUrl": "https://nanovia.tech/media/nanovia-pc-cf-main-500x500.jpg"
     }
   ],
   "resins": [
@@ -23529,7 +24307,8 @@
     "3DJake": "https://www.3djake.com/3djake/3djake-filaments",
     "Recreus": "https://recreus.com/en/pages/faq",
     "NinjaTek": "https://ninjatek.com/shop/compare-filaments/",
-    "Forward AM": "https://forward-am.com/material-portfolio/ultrafuse-filaments-for-fused-filaments-fabrication-fff/"
+    "Forward AM": "https://forward-am.com/material-portfolio/ultrafuse-filaments-for-fused-filaments-fabrication-fff/",
+    "Nanovia": "https://nanovia.tech/en/products/"
   },
   "handbook": [
     {
@@ -24416,6 +25195,10 @@
     {
       "label": "FormFutura — katalog producenta",
       "url": "https://www.formfutura.com/downloads"
+    },
+    {
+      "label": "Nanovia — katalog producenta",
+      "url": "https://nanovia.tech/en/products/"
     }
   ],
   "documents": [
@@ -26762,6 +27545,123 @@
       "id": "doc-227",
       "productIds": [
         "forward-am-ultrafuse-paht-cf15"
+      ]
+    },
+    {
+      "type": "LINK",
+      "language": "—",
+      "url": "https://store.jayo3d.com/products/jayo-1kg-pa6-cf-nylon-carbon-fiber-3d-printer-filament-1-75mm-heat-resistant",
+      "id": "doc-228",
+      "productIds": [
+        "jayo-pa6-cf"
+      ]
+    },
+    {
+      "type": "LINK",
+      "language": "—",
+      "url": "https://store.jayo3d.com/products/jayo-1kg-pa6-gf-nylon-carbon-fiber-3d-printer-filament-1-75mm-heat-resistant",
+      "id": "doc-229",
+      "productIds": [
+        "jayo-pa6-gf"
+      ]
+    },
+    {
+      "type": "LINK",
+      "language": "—",
+      "url": "https://store.jayo3d.com/products/jayo-1kg-pa6-gf-nylon-glass-fiber-3d-printer-filament-1-75mm-wear-resistant-copy",
+      "id": "doc-230",
+      "productIds": [
+        "jayo-pa12-cf"
+      ]
+    },
+    {
+      "type": "LINK",
+      "language": "—",
+      "url": "https://store.jayo3d.com/products/jayo-easy-nylone-pa-3d-printer-filament-1-75mm-1kg-spool-3d-printing-copy",
+      "id": "doc-231",
+      "productIds": [
+        "jayo-easy-pa"
+      ]
+    },
+    {
+      "type": "SDS",
+      "language": "EN",
+      "url": "https://www.esun3d.com/media/esun/catalog/certification/product/PETG-CF/PETG-CF_MSDS_en.pdf",
+      "id": "doc-232",
+      "productIds": [
+        "esun-epetg-cf"
+      ]
+    },
+    {
+      "type": "LINK",
+      "language": "—",
+      "url": "https://www.esun3d.com/epetg-cf-product",
+      "id": "doc-233",
+      "productIds": [
+        "esun-epetg-cf"
+      ]
+    },
+    {
+      "type": "TDS",
+      "language": "EN",
+      "url": "https://www.esun3d.com/media/esun/catalog/certification/product/ABS-CF/ABS-CF_TDS_V1_2024.07.25.pdf",
+      "id": "doc-234",
+      "productIds": [
+        "esun-eabs-cf"
+      ]
+    },
+    {
+      "type": "SDS",
+      "language": "EN",
+      "url": "https://www.esun3d.com/media/esun/catalog/certification/product/ABS-CF/_ABS-CF_MSDS.pdf",
+      "id": "doc-235",
+      "productIds": [
+        "esun-eabs-cf"
+      ]
+    },
+    {
+      "type": "TDS",
+      "language": "EN",
+      "url": "https://www.esun3d.com/media/esun/catalog/certification/product/ABS-GF/ABS-GF_TDS_V1_2024.07.25.pdf",
+      "id": "doc-236",
+      "productIds": [
+        "esun-eabs-gf"
+      ]
+    },
+    {
+      "type": "SDS",
+      "language": "EN",
+      "url": "https://www.esun3d.com/media/esun/catalog/certification/product/ABS-GF/ABS-GF_MSDS_EN.pdf",
+      "id": "doc-237",
+      "productIds": [
+        "esun-eabs-gf"
+      ]
+    },
+    {
+      "type": "TDS",
+      "language": "EN",
+      "url": "https://www.esun3d.com/media/esun/catalog/certification/product/PET-CF/PET-CF_TDS.pdf",
+      "id": "doc-238",
+      "productIds": [
+        "esun-pet-cf"
+      ]
+    },
+    {
+      "type": "SDS",
+      "language": "FR/EN",
+      "url": "https://nanovia.tech/media/nanovia-pc-cf-msds.pdf",
+      "id": "doc-239",
+      "productIds": [
+        "nanovia-pc-cf"
+      ]
+    },
+    {
+      "type": "LINK",
+      "language": "—",
+      "url": "https://nanovia.tech/en/ref/nanovia-pc-cf/",
+      "id": "doc-240",
+      "productIds": [
+        "nanovia-pc-cf"
       ]
     }
   ]

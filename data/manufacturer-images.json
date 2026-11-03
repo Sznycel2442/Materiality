@@ -61,5 +61,166 @@
     "imageSourceUrl": "https://store.jayo3d.com/cdn/shop/files/3_c42b6114-0d6d-4c1a-82f5-c6e61600ba1d.jpg?v=1770888144&width=600",
     "source": "https://store.jayo3d.com/products/jayo-petg-3d-printing-filament-1-1kg",
     "imageCredit": "JAYO"
+  },
+  {
+    "id": "jayo-pa6-cf",
+    "imageUrl": "assets/materials/jayo-pa6-cf.jpg",
+    "imageSourceUrl": "https://store.jayo3d.com/cdn/shop/files/PA6-CF.webp?v=1761903019&width=600",
+    "source": "https://store.jayo3d.com/products/jayo-1kg-pa6-cf-nylon-carbon-fiber-3d-printer-filament-1-75mm-heat-resistant",
+    "imageCredit": "JAYO"
+  },
+  {
+    "id": "jayo-pa6-gf",
+    "imageUrl": "assets/materials/jayo-pa6-gf.jpg",
+    "imageSourceUrl": "https://store.jayo3d.com/cdn/shop/files/6_-PA6-GF.jpg?v=1761904596&width=600",
+    "source": "https://store.jayo3d.com/products/jayo-1kg-pa6-gf-nylon-carbon-fiber-3d-printer-filament-1-75mm-heat-resistant",
+    "imageCredit": "JAYO"
+  },
+  {
+    "id": "jayo-pa12-cf",
+    "imageUrl": "assets/materials/jayo-pa12-cf.jpg",
+    "imageSourceUrl": "https://store.jayo3d.com/cdn/shop/files/6_-PA12-CF.jpg?v=1761905962&width=600",
+    "source": "https://store.jayo3d.com/products/jayo-1kg-pa6-gf-nylon-glass-fiber-3d-printer-filament-1-75mm-wear-resistant-copy",
+    "imageCredit": "JAYO"
+  },
+  {
+    "id": "jayo-easy-pa",
+    "imageUrl": "assets/materials/jayo-easy-pa.jpg",
+    "imageSourceUrl": "https://store.jayo3d.com/cdn/shop/files/EPA-BS.jpg?v=1762151813&width=600",
+    "source": "https://store.jayo3d.com/products/jayo-easy-nylone-pa-3d-printer-filament-1-75mm-1kg-spool-3d-printing-copy",
+    "imageCredit": "JAYO"
+  },
+  {
+    "id": "esun-epetg-cf",
+    "imageUrl": "assets/materials/esun-epetg-cf.jpg",
+    "imageSourceUrl": "https://ueeshop.ly200-cdn.com/u_file/UPBB/UPBB609/2411/29/products/517c9ea617.jpg",
+    "source": "https://esun3dstore.com/products/petg-cf",
+    "imageCredit": "eSUN"
+  },
+  {
+    "id": "esun-eabs-cf",
+    "imageUrl": "assets/materials/esun-eabs-cf.jpg",
+    "imageSourceUrl": "https://ueeshop.ly200-cdn.com/u_file/UPBB/UPBB609/2412/11/products/acccd9e244.jpg",
+    "source": "https://esun3dstore.com/products/abs-cf",
+    "imageCredit": "eSUN"
+  },
+  {
+    "id": "esun-epa-cf",
+    "imageUrl": "assets/materials/esun-epa-cf.jpg",
+    "imageSourceUrl": "https://ueeshop.ly200-cdn.com/u_file/UPBB/UPBB609/2604/20/products/ee64a236ba.jpg",
+    "source": "https://esun3dstore.com/products/epa-cf",
+    "imageCredit": "eSUN"
+  },
+  {
+    "id": "esun-epla-cf",
+    "imageUrl": "assets/materials/esun-epla-cf.jpg",
+    "imageSourceUrl": "https://ueeshop.ly200-cdn.com/u_file/UPBB/UPBB609/2412/25/products/4231548107.jpg",
+    "source": "https://esun3dstore.com/products/epla-cf",
+    "imageCredit": "eSUN"
+  },
+  {
+    "id": "nanovia-pc-cf",
+    "imageUrl": "assets/materials/nanovia-pc-cf.jpg",
+    "imageSourceUrl": "https://nanovia.tech/media/nanovia-pc-cf-main-500x500.jpg",
+    "source": "https://nanovia.tech/en/ref/nanovia-pc-cf/",
+    "imageCredit": "Nanovia"
+  },
+  {
+    "id": "polymaker-fiberon-pa6-cf20",
+    "imageUrl": "assets/materials/polymaker-fiberon-pa6-cf20.png",
+    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0548/7299/7945/files/FG03001_Isometric_Top.png?v=1721220020&width=600",
+    "source": "https://shop.polymaker.com/products/fiberon-pa6-cf20",
+    "imageCredit": "Polymaker"
+  },
+  {
+    "id": "polymaker-fiberon-pet-cf17",
+    "imageUrl": "assets/materials/polymaker-fiberon-pet-cf17.png",
+    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0548/7299/7945/files/FL01001_Isometric_Top.png?v=1721220229&width=600",
+    "source": "https://shop.polymaker.com/products/fiberon-pet-cf17",
+    "imageCredit": "Polymaker"
+  },
+  {
+    "id": "polymaker-fiberon-pps-cf10",
+    "imageUrl": "assets/materials/polymaker-fiberon-pps-cf10.png",
+    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0548/7299/7945/files/FM01001_Isometric_Top.png?v=1721220390&width=600",
+    "source": "https://shop.polymaker.com/products/fiberon-pps-cf10",
+    "imageCredit": "Polymaker"
+  },
+  {
+    "id": "polymaker-polymax-pc-fr",
+    "imageUrl": "assets/materials/polymaker-polymax-pc-fr.png",
+    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0548/7299/7945/files/PolyMax-PC-FR_1.75mm_1kg_Black_8695b1e4-4e6f-484a-ab4d-e68bc524a1fb.png?v=1691584618&width=600",
+    "source": "https://shop.polymaker.com/products/polymax-pc-fr",
+    "imageCredit": "Polymaker"
+  },
+  {
+    "id": "fiberlogy-nylon-pa12-pluscf",
+    "imageUrl": "assets/materials/fiberlogy-nylon-pa12-pluscf.jpg",
+    "imageSourceUrl": "https://fiberlogy.com/app/uploads/2026/07/FIBERLOGY_NYLON_PA12_CF-175-100-Black-side.jpg",
+    "source": "https://fiberlogy.com/product/filament-nylon-pa12cf/",
+    "imageCredit": "Fiberlogy"
+  },
+  {
+    "id": "fiberlogy-abs-plusgf",
+    "imageUrl": "assets/materials/fiberlogy-abs-plusgf.jpg",
+    "imageSourceUrl": "https://fiberlogy.com/app/uploads/2026/07/FIBERLOGY_ABS_GF-175-100-Gray-side-1.jpg",
+    "source": "https://fiberlogy.com/product/filament-absgf/",
+    "imageCredit": "Fiberlogy"
+  },
+  {
+    "id": "fiberlogy-pctg-cf",
+    "imageUrl": "assets/materials/fiberlogy-pctg-cf.jpg",
+    "imageSourceUrl": "https://fiberlogy.com/app/uploads/2026/07/FIBERLOGY_PCTGCF10-175-075-Black-side.jpg",
+    "source": "https://fiberlogy.com/product/filament-pctgcf/",
+    "imageCredit": "Fiberlogy"
+  },
+  {
+    "id": "spectrum-pa6-gf30",
+    "imageUrl": "assets/materials/spectrum-pa6-gf30.jpg",
+    "imageSourceUrl": "https://spectrumfilaments.com/wp-content/uploads/2022/10/pa6-low-warp-gf30-natural-1.jpg",
+    "source": "https://spectrumfilaments.com/en/filament/pa6-low-warp-gf30/",
+    "imageCredit": "Spectrum Filaments"
+  },
+  {
+    "id": "spectrum-pa6-cf15s",
+    "imageUrl": "assets/materials/spectrum-pa6-cf15s.jpg",
+    "imageSourceUrl": "https://spectrumfilaments.com/wp-content/uploads/2022/10/pa6-low-warp-cf15s-1.jpg",
+    "source": "https://spectrumfilaments.com/en/filament/pa6-low-warp-cf15s/",
+    "imageCredit": "Spectrum Filaments"
+  },
+  {
+    "id": "spectrum-pctg-cf10",
+    "imageUrl": "assets/materials/spectrum-pctg-cf10.jpg",
+    "imageSourceUrl": "https://spectrumfilaments.com/wp-content/uploads/2022/10/pctg-cf10-1.jpg",
+    "source": "https://spectrumfilaments.com/en/filament/pctg-cf10/",
+    "imageCredit": "Spectrum Filaments"
+  },
+  {
+    "id": "spectrum-pc-275",
+    "imageUrl": "assets/materials/spectrum-pc-275.jpg",
+    "imageSourceUrl": "https://spectrumfilaments.com/wp-content/uploads/2023/10/pc-275-tr-blue-1.jpg",
+    "source": "https://spectrumfilaments.com/en/filament/pc-275/",
+    "imageCredit": "Spectrum Filaments"
+  },
+  {
+    "id": "sunlu-pa6-cf",
+    "imageUrl": "assets/materials/sunlu-pa6-cf.png",
+    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0152/6507/1190/files/SUNLUPA6-CF1KG_1.png?v=1776406894&width=600",
+    "source": "https://store.sunlu.com/products/nylon6-carbon-fiber-pa6-cf-3d-printer-filament-1kg",
+    "imageCredit": "SUNLU"
+  },
+  {
+    "id": "sunlu-pc",
+    "imageUrl": "assets/materials/sunlu-pc.png",
+    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0152/6507/1190/files/pcfilament1kg_6.png?v=1773391789&width=600",
+    "source": "https://store.sunlu.com/products/sunlu-pc-polycarbonate-3d-printer-filament-1kg",
+    "imageCredit": "SUNLU"
+  },
+  {
+    "id": "sunlu-petg-cf",
+    "imageUrl": "assets/materials/sunlu-petg-cf.jpg",
+    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0152/6507/1190/files/PETGCarbonFiber_28fb6bba-82b2-42a1-a693-682d3483aee6.jpg?v=1786734906&width=600",
+    "source": "https://store.sunlu.com/products/petg-cfpetg-carbon-fiber-3d-printer-filament-1kg",
+    "imageCredit": "SUNLU"
   }
 ]

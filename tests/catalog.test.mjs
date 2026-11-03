@@ -4,6 +4,7 @@ import { execFileSync } from 'node:child_process';
 import { additions, updates } from '../data/catalog-expansion.mjs';
 import { polymakerTDS } from '../data/documents.mjs';
 import { additions as wikiAdditions } from '../data/ultimate-expansion.mjs';
+import { additions as engineeringAdditions } from '../data/engineering-expansion.mjs';
 
 const root = new URL('../', import.meta.url);
 const db = JSON.parse(await readFile(new URL('materiality-data.json',root),'utf8'));
@@ -14,7 +15,7 @@ const baseline = JSON.parse(execFileSync('git',['show','60825eb:materiality-data
 for (const key of ['resins','printers','feeders','resinPrinters','categories']) assert.deepEqual(db[key],baseline[key],`${key} preserved`);
 const ids = db.filaments.map(d=>d.id);
 assert.equal(new Set(ids).size,ids.length,'Unique material identifiers');
-assert.equal(db.filaments.length,baseline.filaments.length+additions.length+wikiAdditions.length);
+assert.equal(db.filaments.length,baseline.filaments.length+additions.length+wikiAdditions.length+engineeringAdditions.length);
 for (const old of baseline.filaments) {
   const current = db.filaments.find(d=>d.id===old.id);
   assert.ok(current,`Existing material preserved: ${old.id}`);
@@ -50,7 +51,7 @@ assert.equal(get('esun-epa-gf').documentKind,'manufacturer-manual');
 assert.equal(get('3dxtech-pc-cf').hdt,null,'Matrix Tg is not composite HDT');
 assert.equal(get('3dxtech-pc-cf').printGuide.dryingTemperature,120);
 assert.equal(get('fiberlogy-nylon-pa12-gf15').printGuide.chamber,'not-required');
-for (const d of [...additions,...wikiAdditions].map(d=>get(d.id))) {
+for (const d of [...additions,...wikiAdditions,...engineeringAdditions].map(d=>get(d.id))) {
   assert.ok(db.handbook.some(g=>g.base===d.base),`Handbook family: ${d.base}`);
   assert.ok(d.description.pl && d.description.en && d.note.pl && d.note.en);
   assert.equal(new URL(d.source).protocol,'https:');
@@ -71,4 +72,4 @@ for(const doc of db.documents)for(const id of doc.productIds)assert.ok(ids.inclu
 assert.ok(db.documents.filter(d=>d.type==='SDS').length>=40);
 assert.ok(new Set(db.filaments.map(d=>d.brand)).size>=21);
 assert.ok(db.documents.filter(d=>d.type!=='LINK').length>=180);
-console.log(`Catalog passed: ${db.filaments.length} materials, ${additions.length+wikiAdditions.length} additions, ${db.documents.length} document records, synchronized HTML/JSON/CSV.`);
+console.log(`Catalog passed: ${db.filaments.length} materials, ${additions.length+wikiAdditions.length+engineeringAdditions.length} additions, ${db.documents.length} document records, synchronized HTML/JSON/CSV.`);

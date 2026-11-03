@@ -2,11 +2,11 @@
 
 Polsko-angielski katalog materiałów do druku 3D. Witryna statyczna publikowana z katalogu głównego na GitHub Pages: https://sznycel2442.github.io/Materiality/.
 
-Biblioteka obejmuje 293 filamenty od 21 marek, 26 rodzin tworzyw oraz dokumentację TDS, SDS, katalogi i deklaracje producentów. Dokumenty można przeszukiwać i filtrować według marki, typu i języka. Linki prowadzą do źródeł producentów; pliki PDF nie są kopiowane do repozytorium.
+Biblioteka obejmuje 302 filamenty od 22 marek, 26 rodzin tworzyw oraz dokumentację TDS, SDS, katalogi i deklaracje producentów. Dokumenty można przeszukiwać i filtrować według marki, typu i języka. Linki prowadzą do źródeł producentów; pliki PDF nie są kopiowane do repozytorium. Lokalne zdjęcia produktów pochodzą ze stron producentów i są przypisane do konkretnych kart materiałów.
 
 ## Aktualizacja danych
 
-`materiality-data.json` jest pełną bazą. Moduły `data/catalog-expansion.mjs` i `data/ultimate-expansion.mjs` zawierają wpisy produktów, a pliki `data/*documents*` ich dokumentację. Każdy produkt zachowuje stały identyfikator. Zestaw `data/spectrum-documents.json` został wyprowadzony z oficjalnej strony pobierania Spectrum.
+`materiality-data.json` jest pełną bazą. Moduły `data/catalog-expansion.mjs`, `data/ultimate-expansion.mjs` i `data/engineering-expansion.mjs` zawierają wpisy produktów, a pliki `data/*documents*` ich dokumentację. `data/manufacturer-images.json` łączy karty z fotografiami i stronami ich pochodzenia. Każdy produkt zachowuje stały identyfikator. Zestaw `data/spectrum-documents.json` został wyprowadzony z oficjalnej strony pobierania Spectrum.
 
 Po edycji źródeł uruchom (Node.js 22 lub nowszy):
 
