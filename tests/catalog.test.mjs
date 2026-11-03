@@ -7,6 +7,7 @@ import { additions as wikiAdditions } from '../data/ultimate-expansion.mjs';
 
 const root = new URL('../', import.meta.url);
 const db = JSON.parse(await readFile(new URL('materiality-data.json',root),'utf8'));
+const manufacturerImages=JSON.parse(await readFile(new URL('data/manufacturer-images.json',root),'utf8'));
 const html = await readFile(new URL('index.html',root),'utf8');
 assert.deepEqual(JSON.parse(html.match(/<script>const DB=(\{[^\r\n]*\});/)[1]),db,'HTML and JSON databases must agree');
 const baseline = JSON.parse(execFileSync('git',['show','60825eb:materiality-data.json'],{cwd:root,encoding:'utf8',maxBuffer:2e6}));
@@ -22,10 +23,24 @@ for (const old of baseline.filaments) {
     for(const key of ['documents','tds','tdsPage','source']){
       if(key in old)retained[key]=old[key];else delete retained[key];
     }
+    if(manufacturerImages.some(photo=>photo.id===old.id)){
+      retained.imageCredit=old.imageCredit;
+      retained.imageUrl=old.imageUrl;
+      delete retained.imageSourceUrl;
+    }
     assert.deepEqual(retained,old,'Existing measurements, notes, prices and IDs preserved');
   }
 }
 const get = id => db.filaments.find(d=>d.id===id);
+assert.equal(new Set(manufacturerImages.map(photo=>photo.id)).size,manufacturerImages.length,'Unique photographed products');
+for(const photo of manufacturerImages){
+  assert.ok(get(photo.id),`Photographed material: ${photo.id}`);
+  for(const key of ['imageUrl','imageSourceUrl','imageCredit','source'])assert.equal(get(photo.id)[key],photo[key]);
+  assert.match(photo.imageUrl,/^assets\/materials\/[a-z0-9-]+\.(jpg|jpeg|png|webp)$/i);
+  const image=await readFile(new URL(photo.imageUrl,root));
+  assert.ok(image.length>10000,`Nonempty local photo: ${photo.id}`);
+  assert.ok(/^https:\/\//.test(photo.imageSourceUrl),`Original manufacturer photo URL: ${photo.id}`);
+}
 assert.equal(get('sunlu-pa6-gf').flexModulus,6130);
 assert.equal(get('sunlu-pa6-gf').tensileModulus??null,null,'Never substitute flexural modulus for Young’s modulus');
 assert.equal(get('fiberlogy-nylon-pa12-gf15').tensileModulus,3100);

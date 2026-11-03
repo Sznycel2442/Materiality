@@ -12,7 +12,7 @@ const server = createServer(async(req,res)=>{
     const file = resolve(root,'.'+(route==='/'?'/index.html':route));
     if (!file.startsWith(root+sep)) {res.writeHead(403).end();return;}
     const content = await readFile(file);
-    res.setHeader('Content-Type',({'.html':'text/html; charset=utf-8','.json':'application/json','.svg':'image/svg+xml','.css':'text/css','.js':'text/javascript','.png':'image/png','.webp':'image/webp'})[extname(file)]||'application/octet-stream');
+    res.setHeader('Content-Type',({'.html':'text/html; charset=utf-8','.json':'application/json','.svg':'image/svg+xml','.css':'text/css','.js':'text/javascript','.png':'image/png','.jpg':'image/jpeg','.webp':'image/webp'})[extname(file)]||'application/octet-stream');
     res.end(content);
   }catch {res.writeHead(404).end();}
 });
@@ -28,6 +28,20 @@ try {
   assert.equal(await page.locator('#filGrid .product-card').count(),48,'Initial catalog is paged');
   await page.evaluate(()=>showMoreCatalog('filaments'));
   assert.equal(await page.locator('#filGrid .product-card').count(),96);
+  await page.locator('#search-filaments').fill('PolyMax PC');
+  const manufacturerPhoto=page.locator('#filGrid .product-card .manufacturer-img').first();
+  await manufacturerPhoto.scrollIntoViewIfNeeded();
+  await page.waitForFunction(()=>{
+    const img=document.querySelector('#filGrid .product-card .manufacturer-img');
+    return img?.complete&&img.naturalWidth>0;
+  });
+  assert.match(await manufacturerPhoto.getAttribute('src'),/^assets\/materials\/polymaker-polymax-pc\.png$/);
+  await mkdir(new URL('../test-results/',import.meta.url),{recursive:true});
+  await page.screenshot({path:fileURLToPath(new URL('../test-results/manufacturer-photo-desktop.png',import.meta.url)),fullPage:false});
+  await page.evaluate(()=>{openModal('polymaker-polymax-pc','filaments');setModalTab('photo');});
+  assert.match(await page.locator('#overlay').innerText(),/Polymaker/);
+  assert.ok(await page.locator('#overlay a[href="https://shop.polymaker.com/products/polymax-pc"]').count());
+  await page.evaluate(()=>closeModal());
   // Exercise the actual search field, including aliases and multiword queries.
   for(const [query,expected]of [['PC-CF','3dxtech-pc-cf'],['eSUN GF','esun-epa-gf'],['nylon PA612','polymaker-fiberon-pa612-cf15'],['JAYO Wood','jayo-wood']]){
     await page.locator('#search-filaments').fill(query);

@@ -66,6 +66,15 @@ for(const d of db.filaments.filter(d=>wikiAdditions.some(newProduct=>newProduct.
   if(!links.length)d.tdsPage=d.source;
 }
 for(const d of db.filaments.filter(d=>d.checkedOn===checkedOn&&d.dry))d.printGuide.dryingSource=d.tds||d.source;
+const manufacturerImages = JSON.parse(await read('data/manufacturer-images.json'));
+for (const photo of manufacturerImages) {
+  const product = db.filaments.find(d => d.id === photo.id);
+  if (!product) throw new Error(`Unknown photographed product: ${photo.id}`);
+  if (!/^assets\/materials\/[a-z0-9-]+\.(?:jpg|jpeg|png|webp)$/i.test(photo.imageUrl)) {
+    throw new Error(`Invalid local photo path: ${photo.imageUrl}`);
+  }
+  Object.assign(product, photo);
+}
 const documents=new Map();
 for(const d of db.filaments){
   const links=[...(d.documents||[])];

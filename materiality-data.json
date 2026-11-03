@@ -2801,7 +2801,7 @@
       "flexStrength": 176,
       "impactXY": null,
       "moisture": null,
-      "source": "https://www.sunlu.com/wiki/engineering-filament",
+      "source": "https://store.sunlu.com/products/sunlu-nylon-6-glass-fiber-pa6-gf-3d-printer-filament-1kg",
       "tds": "https://media.sunlu.com/prod/20260330/e5f16b43-cef6-4f3e-ad93-3cc86f93f7e4.pdf?filename=TDS",
       "reference": null,
       "evidence": "tds",
@@ -2817,8 +2817,8 @@
         "composite"
       ],
       "profileOrigin": "family",
-      "imageCredit": null,
-      "imageUrl": null,
+      "imageCredit": "SUNLU",
+      "imageUrl": "assets/materials/sunlu-pa6-gf.png",
       "printGuide": {
         "fan": [
           0,
@@ -2844,7 +2844,8 @@
         "tensileStrength": "ISO 527/2 · XY",
         "flexModulus": "ISO 178 · XY",
         "hdt": "ISO 75 · 0.45 MPa"
-      }
+      },
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0152/6507/1190/files/SUNLUNylon6_GlassFiber_PA6-GF_3DPrinterFilament1KG_1.png?v=1773391801&width=600"
     },
     {
       "id": "sunlu-pa12-cf",
@@ -3411,7 +3412,7 @@
       "flexStrength": null,
       "impactXY": null,
       "moisture": null,
-      "source": "https://jayo3d.com/",
+      "source": "https://store.jayo3d.com/products/jayo-petg-3d-printing-filament-1-1kg",
       "tds": null,
       "reference": null,
       "evidence": "catalog",
@@ -3426,8 +3427,8 @@
         "strong"
       ],
       "profileOrigin": "family",
-      "imageCredit": null,
-      "imageUrl": null,
+      "imageCredit": "JAYO",
+      "imageUrl": "assets/materials/jayo-petg.jpg",
       "printGuide": {
         "fan": [
           20,
@@ -3444,7 +3445,8 @@
         "dryingBasis": "prusament-reference",
         "dryingSource": "https://help.prusa3d.com/pl/article/suszenie-filamentu_332086",
         "storage": "sealed"
-      }
+      },
+      "imageSourceUrl": "https://store.jayo3d.com/cdn/shop/files/3_c42b6114-0d6d-4c1a-82f5-c6e61600ba1d.jpg?v=1770888144&width=600"
     },
     {
       "id": "jayo-abs",
@@ -6273,7 +6275,7 @@
       "flexStrength": null,
       "impactXY": null,
       "moisture": null,
-      "source": "https://shop.polymaker.com/pages/filament-guide",
+      "source": "https://shop.polymaker.com/products/polymax-pc",
       "tds": "https://polymaker.com/wp-content/uploads/TDS_Polymaker_PolyMax-PC_V5.5_2026-01-05_EN.pdf",
       "reference": null,
       "evidence": "catalog",
@@ -6289,8 +6291,8 @@
         "heat"
       ],
       "profileOrigin": "family",
-      "imageCredit": null,
-      "imageUrl": null,
+      "imageCredit": "Polymaker",
+      "imageUrl": "assets/materials/polymaker-polymax-pc.png",
       "printGuide": {
         "fan": [
           0,
@@ -6316,7 +6318,8 @@
           "url": "https://polymaker.com/wp-content/uploads/TDS_Polymaker_PolyMax-PC_V5.5_2026-01-05_EN.pdf",
           "checkedOn": "2026-11-03"
         }
-      ]
+      ],
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0548/7299/7945/files/PolyMax-PC_1.75mm_0.75kg_Black_ffb83a99-9058-4b88-ae8a-c2e450a097bc.png?v=1691584525&width=600"
     },
     {
       "id": "poly-polylite-abs",
@@ -6608,7 +6611,7 @@
       "flexStrength": null,
       "impactXY": null,
       "moisture": null,
-      "source": "https://shop.polymaker.com/pages/filament-guide",
+      "source": "https://shop.polymaker.com/products/fiberon-pa6-gf25",
       "tds": "https://polymaker.com/wp-content/uploads/TDS_FIBERON-PA6-GF25_V1.1_EN.pdf",
       "reference": null,
       "evidence": "catalog",
@@ -6624,8 +6627,8 @@
         "composite"
       ],
       "profileOrigin": "family",
-      "imageCredit": null,
-      "imageUrl": null,
+      "imageCredit": "Polymaker",
+      "imageUrl": "assets/materials/polymaker-fiberon-pa6-gf25.png",
       "printGuide": {
         "fan": [
           0,
@@ -6651,7 +6654,8 @@
           "url": "https://polymaker.com/wp-content/uploads/TDS_FIBERON-PA6-GF25_V1.1_EN.pdf",
           "checkedOn": "2026-11-03"
         }
-      ]
+      ],
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0548/7299/7945/files/FG02001_Isometric_Top.png?v=1721220001&width=600"
     },
     {
       "id": "polymaker-fiberon-pet-cf17",
@@ -9474,14 +9478,14 @@
       "tensileModulus": null,
       "tensileStrength": null,
       "elongation": null,
-      "source": "https://fiberon.polymaker.com/",
+      "source": "https://shop.polymaker.com/products/fiberon-pa12-cf10",
       "tds": "https://polymaker.com/wp-content/uploads/TDS_FIBERON-PA12-CF10_V1.1_EN.pdf",
       "reference": null,
       "evidence": "catalog",
       "spool": "check",
       "photo": null,
-      "imageUrl": null,
-      "imageCredit": null,
+      "imageUrl": "assets/materials/polymaker-fiberon-pa12-cf10.png",
+      "imageCredit": "Polymaker",
       "categories": [
         "engineering",
         "strong",
@@ -9518,7 +9522,8 @@
           "url": "https://polymaker.com/wp-content/uploads/TDS_FIBERON-PA12-CF10_V1.1_EN.pdf",
           "checkedOn": "2026-11-03"
         }
-      ]
+      ],
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0548/7299/7945/files/FG04001_Isometric_Top.png?v=1731685900&width=600"
     },
     {
       "id": "polymaker-fiberon-pa612-cf15",
@@ -9645,8 +9650,8 @@
       "evidence": "tds",
       "spool": "check",
       "photo": null,
-      "imageUrl": null,
-      "imageCredit": null,
+      "imageUrl": "assets/materials/fiberlogy-nylon-pa12-gf15.jpg",
+      "imageCredit": "Fiberlogy",
       "categories": [
         "engineering",
         "strong",
@@ -9714,7 +9719,8 @@
           "url": "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_SDS_NYLON-PA12-GF15_FR.pdf",
           "checkedOn": "2026-11-03"
         }
-      ]
+      ],
+      "imageSourceUrl": "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_NYLON_PA12_GF-175-100-Black-side.jpg"
     },
     {
       "id": "3dxtech-pc",
@@ -12245,8 +12251,8 @@
       "evidence": "catalog",
       "spool": "check",
       "photo": null,
-      "imageUrl": null,
-      "imageCredit": null,
+      "imageUrl": "assets/materials/spectrum-pc-cf.webp",
+      "imageCredit": "Spectrum Filaments",
       "categories": [
         "engineering",
         "strong",
@@ -12290,7 +12296,8 @@
           "url": "https://spectrumfilaments.com/wp-content/uploads/2024/11/en_msds_spectrum_pc_cf.pdf",
           "checkedOn": "2026-11-03"
         }
-      ]
+      ],
+      "imageSourceUrl": "https://spectrumfilaments.com/wp-content/uploads/2024/10/carbon_black_pc_cf_1.webp"
     },
     {
       "id": "spectrum-pc-275",
@@ -14590,14 +14597,14 @@
       "tensileModulus": null,
       "tensileStrength": null,
       "elongation": null,
-      "source": "https://fillamentum.com/learn/data-sheets-and-3d-printing-guides/",
+      "source": "https://shop.fillamentum.com/products/nylon-cf15-carbon",
       "tds": "https://fillamentum.com/wp-content/uploads/2020/10/Technical-Data-Sheet_Nylon-CF15-Carbon_03012019.pdf",
       "reference": null,
       "evidence": "catalog",
       "spool": "check",
       "photo": null,
-      "imageUrl": null,
-      "imageCredit": null,
+      "imageUrl": "assets/materials/fillamentum-nylon-cf15.jpg",
+      "imageCredit": "Fillamentum",
       "categories": [
         "engineering",
         "strong",
@@ -14640,7 +14647,8 @@
           "url": "https://fillamentum.com/wp-content/uploads/2020/10/SDS_Nylon-CF15-Carbon_EN.pdf",
           "checkedOn": "2026-11-03"
         }
-      ]
+      ],
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0677/6533/products/Nylon_CF15_Carbon_1_75.jpg?v=1606719888&width=600"
     },
     {
       "id": "fillamentum-nylon-af80",
@@ -15632,14 +15640,14 @@
       "tensileModulus": null,
       "tensileStrength": null,
       "elongation": null,
-      "source": "https://colorfabb.com/ams-compatibility",
+      "source": "https://colorfabb.com/xt-cf20",
       "tds": "https://colorfabb.com/media/datasheets/tds/colorfabb/TDS_E_ColorFabb_XT_CF20.pdf",
       "reference": null,
       "evidence": "catalog",
       "spool": "check",
       "photo": null,
-      "imageUrl": null,
-      "imageCredit": null,
+      "imageUrl": "assets/materials/colorfabb-xt-cf20.png",
+      "imageCredit": "colorFabb",
       "categories": [
         "engineering",
         "strong",
@@ -15682,7 +15690,8 @@
           "url": "https://colorfabb.com/media/datasheets/sds/colorfabb/SDS_E_Colorfabb_XT_CF20.pdf",
           "checkedOn": "2026-11-03"
         }
-      ]
+      ],
+      "imageSourceUrl": "https://colorfabb.com/media/catalog/product/x/t/xt_cf20.png?optimize=medium&bg-color=255,255,255&fit=bounds&height=600&width=600&canvas=600:600"
     },
     {
       "id": "colorfabb-ht",
