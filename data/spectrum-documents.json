@@ -1,0 +1,298 @@
+[
+  {
+    "id": "spectrum-pc-cf",
+    "source": "https://spectrumfilaments.com/en/filament/pc-cf/",
+    "links": [
+      {
+        "type": "TDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2024/11/en_tds_spectrum_pc_cf.pdf"
+      },
+      {
+        "type": "SDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2024/11/en_msds_spectrum_pc_cf.pdf"
+      }
+    ],
+    "candidate": "PC CF"
+  },
+  {
+    "id": "spectrum-pc-275",
+    "source": "https://spectrumfilaments.com/en/filament/pc-275/",
+    "links": [
+      {
+        "type": "TDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2023/10/en_tds_spectrum_pc_275.pdf"
+      },
+      {
+        "type": "SDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2023/11/en_msds_pc275.pdf"
+      }
+    ],
+    "candidate": "PC 275"
+  },
+  {
+    "id": "spectrum-pc-abs-fr-v0",
+    "source": "https://spectrumfilaments.com/en/filament/pc-abs-fr-v0/",
+    "links": [
+      {
+        "type": "TDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2024/02/en_tds_spectrum_pc_abs_fr_v0.pdf"
+      }
+    ],
+    "candidate": "PC/ABS FR V0"
+  },
+  {
+    "id": "spectrum-pa6-gf30",
+    "source": "https://spectrumfilaments.com/en/filament/pa6-low-warp-gf30/",
+    "links": [
+      {
+        "type": "TDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2022/10/en_tds_spectrum_pa6_low_warp_gf30.pdf"
+      },
+      {
+        "type": "SDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2022/10/en_msds_spectrum_pa6_lowwarp_gf30.pdf"
+      }
+    ],
+    "candidate": "PA6 Low Warp GF30™"
+  },
+  {
+    "id": "spectrum-pa6-cf15s",
+    "source": "https://spectrumfilaments.com/en/filament/pa6-low-warp-cf15s/",
+    "links": [
+      {
+        "type": "TDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2022/10/en_tds_spectrum_pa6_low_warp_cf15s.pdf"
+      },
+      {
+        "type": "SDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2022/10/en_msds_spectrum_pa6_lowwarp_cf15s.pdf"
+      }
+    ],
+    "candidate": "PA6 Low Warp CF15S"
+  },
+  {
+    "id": "spectrum-pa6-low-warp",
+    "source": "https://spectrumfilaments.com/en/filament/pa6-low-wrap/",
+    "links": [
+      {
+        "type": "TDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2021/09/en_tds_spectrum_pa6_low_warp.pdf"
+      },
+      {
+        "type": "SDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2021/09/en_msds_spectrum_pa6_low_warp.pdf"
+      }
+    ],
+    "candidate": "PA6 Low Warp™"
+  },
+  {
+    "id": "spectrum-pctg-cf10",
+    "source": "https://spectrumfilaments.com/en/filament/pctg-cf10/",
+    "links": [
+      {
+        "type": "TDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2022/10/en_tds_spectrum_pctg_cf10.pdf"
+      },
+      {
+        "type": "SDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2022/10/filament-spectrum-premium-pctg-cf10_03102022_en.pdf"
+      }
+    ],
+    "candidate": "PCTG CF10"
+  },
+  {
+    "id": "spectrum-pctg-gf10",
+    "source": "https://spectrumfilaments.com/en/filament/pctg-gf10/",
+    "links": [
+      {
+        "type": "TDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2022/10/en_tds_spectrum_pctg_gf10.pdf"
+      },
+      {
+        "type": "SDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2022/10/en_msds_spectrum_pctg_gf10.pdf"
+      }
+    ],
+    "candidate": "PCTG GF10"
+  },
+  {
+    "id": "spectrum-pctg-premium",
+    "source": "https://spectrumfilaments.com/en/filament/pctg-premium/",
+    "links": [
+      {
+        "type": "TDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2022/05/en_tds_spectrum_pctg.pdf"
+      },
+      {
+        "type": "SDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2022/05/en_msds_spectrum_pctg_premium.pdf"
+      }
+    ],
+    "candidate": "PCTG Premium"
+  },
+  {
+    "id": "spectrum-petg-ptfe",
+    "source": "https://spectrumfilaments.com/en/filament/pet-g-ptfe/",
+    "links": [
+      {
+        "type": "TDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2022/10/en_tds_spectrum_petg_ptfe.pdf"
+      },
+      {
+        "type": "SDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2022/10/en_msds_spectrum_petg_ptfe.pdf"
+      }
+    ],
+    "candidate": "PETG/PTFE"
+  },
+  {
+    "id": "spectrum-premium-petg",
+    "source": "https://spectrumfilaments.com/en/filament/pet-g-premium/",
+    "links": [],
+    "candidate": "PET-G Premium"
+  },
+  {
+    "id": "spectrum-asa-275",
+    "source": "https://spectrumfilaments.com/en/filament/asa-275/",
+    "links": [],
+    "candidate": "ASA 275™"
+  },
+  {
+    "id": "spectrum-asa-x-cf10",
+    "source": "https://spectrumfilaments.com/en/filament/asa-x-cf10/",
+    "links": [
+      {
+        "type": "TDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2022/10/en_tds_spectrum_asax_cf10.pdf"
+      },
+      {
+        "type": "SDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2022/10/filament-spectrum-asa-x-cf10_03102022_en.pdf"
+      }
+    ],
+    "candidate": "ASA-X CF10™"
+  },
+  {
+    "id": "spectrum-pla-high-speed",
+    "source": "https://spectrumfilaments.com/en/filament/pla-high-speed/",
+    "links": [
+      {
+        "type": "TDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2024/05/en_tds_spectrum_high_speed.pdf"
+      },
+      {
+        "type": "SDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2024/05/en_spectrum_pla_high_speed.pdf"
+      }
+    ],
+    "candidate": "PLA High Speed"
+  },
+  {
+    "id": "spectrum-pla-metal-brass",
+    "source": "https://spectrumfilaments.com/en/filament/pla-metal-brass/",
+    "links": [
+      {
+        "type": "TDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2024/11/en_tds_spectrum_pla_metal_brass.pdf"
+      },
+      {
+        "type": "SDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2024/11/en_msds_spectrum_pla_metal_brass.pdf"
+      }
+    ],
+    "candidate": "PLA Metal Brass"
+  },
+  {
+    "id": "spectrum-flameguard-pla",
+    "source": "https://spectrumfilaments.com/en/filament/pla-flameguard/",
+    "links": [
+      {
+        "type": "TDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2024/11/en_tds_spectrum_flameguard_pla.pdf"
+      },
+      {
+        "type": "SDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2024/11/en_msds_spectrum_flameguard_pla.pdf"
+      }
+    ],
+    "candidate": "FlameGuard PLA"
+  },
+  {
+    "id": "spectrum-smart-abs",
+    "source": "https://spectrumfilaments.com/en/filament/smart-abs/",
+    "links": [
+      {
+        "type": "TDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2022/05/en_tds_spectrum_smart_abs.pdf"
+      },
+      {
+        "type": "SDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2021/09/en_msds_spectrum_smart_abs.pdf"
+      }
+    ],
+    "candidate": "smart ABS™"
+  },
+  {
+    "id": "spectrum-hips-x",
+    "source": "https://spectrumfilaments.com/en/filament/hips-x/",
+    "links": [
+      {
+        "type": "TDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2022/05/en_tds_spectrum_hipsx.pdf"
+      },
+      {
+        "type": "SDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2021/09/en_msds_spectrum_hipsx.pdf"
+      }
+    ],
+    "candidate": "HIPS-X™"
+  },
+  {
+    "id": "spectrum-s-flex-85a",
+    "source": "https://spectrumfilaments.com/en/filament/s-flex-85a/",
+    "links": [
+      {
+        "type": "TDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2022/05/en_tds_spectrum_sflex_85a.pdf"
+      },
+      {
+        "type": "SDS",
+        "language": "EN",
+        "url": "https://spectrumfilaments.com/wp-content/uploads/2021/12/en_msds_spectrum_sflex_85a.pdf"
+      }
+    ],
+    "candidate": "S-Flex 85A™"
+  }
+]

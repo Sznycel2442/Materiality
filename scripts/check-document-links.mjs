@@ -4,7 +4,7 @@ import { promisify } from 'node:util';
 const exec=promisify(execFile);
 const root=new URL('../',import.meta.url);
 const db=JSON.parse(await readFile(new URL('materiality-data.json',root),'utf8'));
-const docs=db.documents.filter(d=>d.checkedOn);
+const docs=db.documents.filter(d=>d.checkedOn&&d.type!=='LINK');
 const results=[];
 for(let at=0;at<docs.length;at+=6) await Promise.all(docs.slice(at,at+6).map(async doc=>{
   try {

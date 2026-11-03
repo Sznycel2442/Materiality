@@ -23,8 +23,11 @@ try {
   const errors=[];
   page.on('pageerror',err=>errors.push(err.message));
   await page.goto(`http://127.0.0.1:${server.address().port}/Materiality/`);
-  await page.waitForFunction(()=>Number(document.getElementById('statFil')?.textContent)===162);
+  await page.waitForFunction(()=>Number(document.getElementById('statFil')?.textContent)===293);
   await page.evaluate(()=>go('filaments'));
+  assert.equal(await page.locator('#filGrid .product-card').count(),48,'Initial catalog is paged');
+  await page.evaluate(()=>showMoreCatalog('filaments'));
+  assert.equal(await page.locator('#filGrid .product-card').count(),96);
   // Exercise the actual search field, including aliases and multiword queries.
   for(const [query,expected]of [['PC-CF','3dxtech-pc-cf'],['eSUN GF','esun-epa-gf'],['nylon PA612','polymaker-fiberon-pa612-cf15'],['JAYO Wood','jayo-wood']]){
     await page.locator('#search-filaments').fill(query);
@@ -61,7 +64,7 @@ try {
   await page.evaluate(()=>exportJSON());
   const download=await downloadEvent;
   const stream=await download.createReadStream();let exported='';for await(const chunk of stream)exported+=chunk;
-  assert.equal(JSON.parse(exported).filaments.length,162);
+  assert.equal(JSON.parse(exported).filaments.length,293);
   await page.evaluate(()=>{go('docs');filterDocuments('brand','Fiberlogy');filterDocuments('type','SDS');filterDocuments('language','PL');});
   await page.locator('#documentSearch').fill('PA12');
   const pdfMatches=await page.evaluate(()=>matchingDocuments());

@@ -2,11 +2,13 @@ import { readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { additions, updates, handbookAdditions, checkedOn, sources } from '../data/catalog-expansion.mjs';
 import { polymakerTDS } from '../data/documents.mjs';
+import { additions as wikiAdditions, handbookAdditions as wikiGuides, sources as wikiSources } from '../data/ultimate-expansion.mjs';
+import { fillamentumDocuments, overtureDocuments, otherDocuments, sharedDocuments } from '../data/ultimate-documents.mjs';
 
 const root = new URL('../', import.meta.url);
 const read = name => readFile(new URL(name, root), 'utf8');
 const db = JSON.parse(await read('materiality-data.json'));
-for (const product of additions) {
+for (const product of [...additions,...wikiAdditions]) {
   const at = db.filaments.findIndex(d => d.id === product.id);
   if (at < 0) db.filaments.push(structuredClone(product));
   else db.filaments[at] = structuredClone(product);
@@ -26,12 +28,12 @@ for (const product of db.filaments.filter(d => d.checkedOn === checkedOn)) {
 const fiberlogy = db.filaments.find(d => d.id === 'fiberlogy-nylon-pa12-gf15');
 Object.assign(fiberlogy.printGuide, {fan:[0,25],fanBasis:'product',fanSource:fiberlogy.source,
   chamber:'not-required',chamberBasis:'product',chamberSource:fiberlogy.source});
-for (const guide of handbookAdditions) {
+for (const guide of [...handbookAdditions,...wikiGuides]) {
   const at = db.handbook.findIndex(d => d.base === guide.base);
   if (at < 0) db.handbook.push(guide); else db.handbook[at] = guide;
 }
-Object.assign(db.sources, sources);
-for (const [brand,url] of Object.entries(sources)) {
+Object.assign(db.sources, sources, wikiSources);
+for (const [brand,url] of Object.entries({...sources,...wikiSources})) {
   if (!db.sourceLinks.some(d => d.url === url)) db.sourceLinks.push({label:`${brand} — katalog producenta`,url});
 }
 db.meta.updated = checkedOn;
@@ -52,6 +54,17 @@ for (const {id,source,links} of fiberDocuments) {
   d.tds=links.find(url=>/_TDS\.pdf$/i.test(url));
   d.documents=links.map(url=>({type:url.includes('_TDS.')?'TDS':url.includes('_SDS')?'SDS':'declaration',language:url.includes('_PL.')?'PL':/_DE\./.test(url)?'DE':/_FR\./.test(url)?'FR':url.includes('_SDS_')?'EN':'PL/EN',url,checkedOn}));
 }
+const spectrumDocuments=JSON.parse(await read('data/spectrum-documents.json'));
+const extraDocuments={...fillamentumDocuments,...overtureDocuments,...otherDocuments};
+for(const d of db.filaments.filter(d=>wikiAdditions.some(newProduct=>newProduct.id===d.id))){
+  const spectrum=spectrumDocuments.find(row=>row.id===d.id);
+  if(spectrum?.source)d.source=spectrum.source;
+  const links=[...(spectrum?.links||[]),...(extraDocuments[d.id]||[]),...(sharedDocuments[d.brand]?[sharedDocuments[d.brand]]:[])];
+  d.documents=links.length?links.map(doc=>({...doc,checkedOn})):[];
+  const tds=d.documents.find(doc=>doc.type==='TDS');
+  if(tds)d.tds=tds.url;
+  if(!links.length)d.tdsPage=d.source;
+}
 for(const d of db.filaments.filter(d=>d.checkedOn===checkedOn&&d.dry))d.printGuide.dryingSource=d.tds||d.source;
 const documents=new Map();
 for(const d of db.filaments){
@@ -65,7 +78,14 @@ for(const d of db.filaments){
   }
 }
 db.documents=[...documents.values()];
-const html = await read('index.html');
+let html = await read('index.html');
+if(!html.includes('<script src="assets/catalog.js"></script>')){
+  html=html.replace('<script>const DB=','<script src="assets/catalog.js"></script>\n <script>const DB=');
+  html=html.replace(/^function filterChange\(kind,k,value\)\{[^\r\n]*\}\r?\n/m,'');
+  html=html.replace(/^function renderCatalog\(kind\)\{[^\r\n]*\}\r?\n/m,'');
+}
+html=html.replace(/handbookPromoDesc:'\d+ opisane rodziny:/,`handbookPromoDesc:'${db.handbook.length} opisanych rodzin:`)
+  .replace(/handbookPromoDesc:'\d+ material families/,`handbookPromoDesc:'${db.handbook.length} material families`);
 const embedded = /(<script>const DB=)(\{[^\r\n]*\})(;)/;
 if (!embedded.test(html)) throw new Error('Embedded database marker not found');
 JSON.parse(html.match(embedded)[2]);

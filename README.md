@@ -2,11 +2,11 @@
 
 Polsko-angielski katalog materiałów do druku 3D. Witryna statyczna publikowana z katalogu głównego na GitHub Pages: https://sznycel2442.github.io/Materiality/.
 
-Biblioteka obejmuje 162 filamenty, 22 rodziny tworzyw oraz dokumentację TDS, SDS, katalogi i deklaracje producentów. Dokumenty można przeszukiwać i filtrować według marki, typu i języka. Linki prowadzą do źródeł producentów; pliki PDF nie są kopiowane do repozytorium.
+Biblioteka obejmuje 293 filamenty od 21 marek, 26 rodzin tworzyw oraz dokumentację TDS, SDS, katalogi i deklaracje producentów. Dokumenty można przeszukiwać i filtrować według marki, typu i języka. Linki prowadzą do źródeł producentów; pliki PDF nie są kopiowane do repozytorium.
 
 ## Aktualizacja danych
 
-`materiality-data.json` jest pełną bazą. Moduł `data/catalog-expansion.mjs` zawiera rozszerzenie katalogu, `data/documents.mjs` bezpośrednie linki Polymaker, a `data/fiberlogy-documents.json` dokumenty znalezione na stronach produktów Fiberlogy. Każdy produkt zachowuje stały identyfikator.
+`materiality-data.json` jest pełną bazą. Moduły `data/catalog-expansion.mjs` i `data/ultimate-expansion.mjs` zawierają wpisy produktów, a pliki `data/*documents*` ich dokumentację. Każdy produkt zachowuje stały identyfikator. Zestaw `data/spectrum-documents.json` został wyprowadzony z oficjalnej strony pobierania Spectrum.
 
 Po edycji źródeł uruchom (Node.js 22 lub nowszy):
 
@@ -19,7 +19,7 @@ Synchronizacja jest powtarzalna: aktualizuje JSON, osadzoną bazę w HTML oraz `
 
 ## Uruchomienie i weryfikacja
 
-Otwórz `index.html` przez dowolny lokalny serwer statyczny. Projekt nie wymaga budowania ani backendu. `assets/documents.js` zawiera interfejs biblioteki dokumentów.
+Otwórz `index.html` przez dowolny lokalny serwer statyczny. Projekt nie wymaga budowania ani backendu. `assets/documents.js` zawiera interfejs biblioteki dokumentów, a `assets/catalog.js` wyświetla katalog partiami po 48 wyników.
 
 Test przeglądarkowy wymaga Playwright i Chromium:
 
