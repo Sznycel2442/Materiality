@@ -1,0 +1,26 @@
+// Direct TDS links from https://polymaker.com/download-material/ (checked 2026-11-03).
+export const polymakerTDS={
+  'polymaker-polylite-pla-pro':'TDS_Polymaker_PolyLite-PLA-Pro_V5.6_2026-01-05_EN.pdf',
+  'polymaker-polylite-petg':'TDS_Polymaker_PolyLite-PETG_V6.0_2026-06-09_EN.pdf',
+  'polymaker-polymaker-asa':'lana-downloads/TDS_Polymaker_ASA-V6.0_2025-12-02_EN.pdf',
+  'poly-polylite-abs':'lana-downloads/TDS_Polymaker_PolyLite-ABS_V5.6_2025-12-30_EN.pdf',
+  'polymaker-polymax-pc':'TDS_Polymaker_PolyMax-PC_V5.5_2026-01-05_EN.pdf',
+  'polymaker-polymax-pc-fr':'TDS_Polymaker_PolyMax-PC-FR_V5.5_2026-01-06_EN.pdf',
+  'polymaker-fiberon-pa6-cf20':'TDS_FIBERON-PA6-CF20_V1.1_EN.pdf',
+  'polymaker-fiberon-pa6-gf25':'TDS_FIBERON-PA6-GF25_V1.1_EN.pdf',
+  'polymaker-fiberon-pa12-cf10':'TDS_FIBERON-PA12-CF10_V1.1_EN.pdf',
+  'polymaker-fiberon-pa612-cf15':'TDS_FIBERON-PA612-CF15_V1.1_EN.pdf',
+  'polymaker-fiberon-pet-cf17':'lana-downloads/TDS_FIBERON-PET-CF17_V1.0_EN.pdf',
+  'polymaker-fiberon-asa-cf08':'lana-downloads/TDS_FIBERON-ASA-CF08_V1.0_EN.pdf',
+  'polymaker-fiberon-pps-cf10':'TDS_FIBERON-PPS-CF10_V1.1_EN-1.pdf',
+  'polymaker-polylite-lw-pla':'TDS_PolyLite_LW-PLA_v7.0_2026-04-09.pdf',
+  'polymaker-polyflex-tpu95-hf':'TDS_Polymaker_PolyFlex-TPU95-HF_V5.5_2025-12-29_EN.pdf',
+  'polymaker-polylite-pc':'lana-downloads/TDS_Polymaker_PolyLite-PC-Transparent_V5.5_2026_01_05_EN.pdf',
+  'polymaker-pc-abs':'TDS_Polymaker_PC-ABS_V5.5_2025-12-10_EN.pdf',
+  'polymaker-fiberon-pet-gf15':'lana-downloads/TDS_FIBERON_PET-GF15_v2.0_2026-02-02.pdf',
+  'polymaker-fiberon-pps-gf20':'lana-downloads/TDS_FIBERON-PPS-GF20_V1.1-1.pdf',
+  'polymaker-ht-pla-gf':'lana-downloads/TDS_Polymaker_HT-PLA-GF_V1.2_2025-12-09_EN.pdf',
+  'polymaker-fiberon-petg-rcf08':'lana-downloads/TDS_FIBERON-PETG-rCF08_V1.0_EN.pdf',
+  'polymaker-fiberon-pa612-esd':'lana-downloads/TDS_FIBERON-PA612-ESD_V1.0_EN-1.pdf',
+  'polymaker-polymide-copa':'lana-downloads/TDS_Polymaker_PolyMide-CoPA_V5.5_2026-01-06_EN.pdf'
+};

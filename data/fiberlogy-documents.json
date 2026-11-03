@@ -1,0 +1,169 @@
+[
+  {
+    "id": "fiberlogy-easy-pla",
+    "source": "https://fiberlogy.com/filamenty/pla/easy-pla/",
+    "links": [
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_EASYPLA_TDS.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_EASYPLA_SDS_PL.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_EASYPLA_SDS_EN.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_EASYPLA_SDS_DE.pdf"
+    ]
+  },
+  {
+    "id": "fiberlogy-easy-petg",
+    "source": "https://fiberlogy.com/filamenty/petg/easy-petg/",
+    "links": [
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_EASYPETG_TDS.pdf",
+      "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_EASY-PET-G_SDS_PL.pdf",
+      "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_EASY-PET-G_SDS_ENG.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_EASYPETG_SDS_DE.pdf"
+    ]
+  },
+  {
+    "id": "fiberlogy-pla-pluscf",
+    "source": "https://fiberlogy.com/product/filament-placf/",
+    "links": [
+      "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_PLACF_TDS.pdf",
+      "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_PLA-CF_SDS_PL.pdf",
+      "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_PLA-CF_SDS_ENG.pdf",
+      "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_PLA-CF_SDS_DE.pdf",
+      "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_SDS_PLA-CF_FR.pdf"
+    ]
+  },
+  {
+    "id": "fiberlogy-petg-pluscf",
+    "source": "https://fiberlogy.com/product/filament-petgcf/",
+    "links": [
+      "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_PETGCF_TDS.pdf",
+      "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_PETG-CF_SDS_PL.pdf",
+      "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_PETG-CF_SDS_ENG.pdf",
+      "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_PETG-CF_SDS_DE.pdf",
+      "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_SDS_PETG-CF_FR.pdf"
+    ]
+  },
+  {
+    "id": "fiberlogy-asa",
+    "source": "https://fiberlogy.com/product/filament-asa/",
+    "links": [
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_ASA_TDS.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_ASA_SDS_PL.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_ASA_SDS_EN.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_ASA_SDS_DE.pdf"
+    ]
+  },
+  {
+    "id": "fiberlogy-abs-plusgf",
+    "source": "https://fiberlogy.com/product/filament-absgf/",
+    "links": [
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_ABSGF_TDS.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_ABSGF_SDS_PL.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_ABSGF_SDS_EN.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_ABSGF_SDS_DE.pdf"
+    ]
+  },
+  {
+    "id": "fiberlogy-nylon-pa12-pluscf",
+    "source": "https://fiberlogy.com/product/filament-nylon-pa12cf/",
+    "links": [
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_NYLONPA12CF15_TDS.pdf",
+      "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_NYLON-PA12-CF15_SDS_PL.pdf",
+      "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_NYLON-PA12-CF15_SDS_ENG.pdf",
+      "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_NYLON-PA12-CF15_SDS_DE.pdf",
+      "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_SDS_NYLON-PA12-CF15_FR.pdf"
+    ]
+  },
+  {
+    "id": "fiberlogy-nylon-pa12",
+    "source": "https://fiberlogy.com/en/product/nylon-pa12-filament/",
+    "links": [
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_NYLONPA12_TDS.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_NYLONPA12_SDS_PL.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_NYLONPA12_SDS_EN.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_NYLONPA12_SDS_DE.pdf"
+    ]
+  },
+  {
+    "id": "fiberlogy-petg-fr-v0",
+    "source": "https://fiberlogy.com/product/filament-petg-fr-v0/",
+    "links": [
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_PETGV0_TDS.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_PETGV0_SDS_PL.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_PETGV0_SDS_EN.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_PETGV0_SDS_DE.pdf",
+      "https://fiberlogy.com/app/uploads/2026/07/PETG-V0_Flammability_certificate_ENG-7.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/PETG_V0_Certyfikat_Palnosci_PL.pdf"
+    ]
+  },
+  {
+    "id": "fiberlogy-pctg",
+    "source": "https://fiberlogy.com/product/filament-pctg/",
+    "links": [
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_PCTG_TDS.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_PCTG_SDS_PL.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_PCTG_SDS_EN.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_PCTG_SDS_DE.pdf"
+    ]
+  },
+  {
+    "id": "fiberlogy-nylon-pa12-gf15",
+    "source": "https://fiberlogy.com/en/product/nylon-pa12gf-filament/",
+    "links": [
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_NYLONPA12GF15_TDS.pdf",
+      "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_NYLON-PA12-GF15_SDS_PL.pdf",
+      "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_NYLON-PA12-GF15_SDS_ENG.pdf",
+      "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_NYLON-PA12-GF15_SDS_DE.pdf",
+      "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_SDS_NYLON-PA12-GF15_FR.pdf"
+    ]
+  },
+  {
+    "id": "fiberlogy-fiberflex-40d",
+    "source": "https://fiberlogy.com/product/filament-fiberflex-40d/",
+    "links": [
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_FIBERFLEX40D_TDS.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_FIBERFLEX40D_SDS_PL.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_FIBERFLEX40D_SDS_EN.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_FIBERFLEX40D_SDS_DE.pdf"
+    ]
+  },
+  {
+    "id": "fiberlogy-rnylon",
+    "source": "https://fiberlogy.com/en/product/rnylon-filament/",
+    "links": [
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_RNYLON_TDS.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_RNYLON_SDS_PL.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_RNYLON_SDS_EN.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_RNYLON_SDS_DE.pdf"
+    ]
+  },
+  {
+    "id": "fiberlogy-pctg-gf",
+    "source": "https://fiberlogy.com/product/filament-pctggf/",
+    "links": [
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_PCTGGF_TDS.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_PCTGGF_SDS_PL.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_PCTGGF_SDS_EN.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_PCTGGF_SDS_DE.pdf"
+    ]
+  },
+  {
+    "id": "fiberlogy-pctg-cf",
+    "source": "https://fiberlogy.com/product/filament-pctgcf/",
+    "links": [
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_PCTGCF_TDS.pdf",
+      "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_PCTG-CF_SDS_ENG.pdf",
+      "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_PCTG-CF_SDS_PL.pdf",
+      "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_PCTG-CF_SDS_DE.pdf",
+      "https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_SDS_PCTG-CF_FR.pdf"
+    ]
+  },
+  {
+    "id": "fiberlogy-pc-abs",
+    "source": "https://fiberlogy.com/product/filament-pc-abs/",
+    "links": [
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_PCABS_TDS.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_PCABS_SDS_PL.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_PCABS_SDS_EN.pdf",
+      "https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_PCABS_SDS_DE.pdf"
+    ]
+  }
+]
